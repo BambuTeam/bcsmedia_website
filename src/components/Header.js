@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-
-import "../assets/css/main.css"
+// Assets
+import logoBcsmedia from "../assets/image/logo/logo_bcsmedia.png"
 
 export class Header extends Component {
   render() {
@@ -11,8 +11,8 @@ export class Header extends Component {
             <div className="row">
               <div className="col-md-2 col-sm-6 w-50">
                 <div className="logo">
-                  <a href="#">
-                    <img src="assets/image/logo/sticky_logo_red.png" alt="" />
+                  <a href="#mainmenu-area">
+                    <img src={logoBcsmedia} alt="" width="70px" />
                   </a>
                 </div>
               </div>
@@ -31,7 +31,7 @@ export class Header extends Component {
                       </a>
                     </li>
                     <li>
-                      <a className="nav-link" href="about.html">
+                      <a className="nav-link" href="#about.html">
                         About
                       </a>
                     </li>
@@ -43,11 +43,6 @@ export class Header extends Component {
                     <li>
                       <a className="nav-link" href="#testimonial">
                         Testimonials
-                      </a>
-                    </li>
-                    <li>
-                      <a className="nav-link" href="blog.html">
-                        Blog
                       </a>
                     </li>
                     <li>

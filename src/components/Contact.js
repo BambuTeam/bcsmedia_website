@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import bcsmediaicon from "../assets/image/home/bk-transparent.png";
 
 export class Contact extends Component {
   render() {
@@ -15,7 +16,8 @@ export class Contact extends Component {
               data-wow-duration="1s"
             >
               <div className="home-3-contact-area-img">
-                <img src="assets/image/contact-img-3.png" alt="" />
+                <img src={bcsmediaicon} alt="" />
+                {/* <img src="assets/image/contact-img-3.png" alt="" /> */}
               </div>
             </div>
             <div

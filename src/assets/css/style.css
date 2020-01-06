@@ -28,6 +28,16 @@ Base CSS
 
 @import url('https://fonts.googleapis.com/css?family=Overpass:300,400,400i,600,600i,700,700i&display=swap');
 
+@font-face {
+    font-family: "bcs-primary-bold";
+    src: url("../webfonts/ITCAvantGardeStd/ITCAvantGardeStd-Bold.otf");
+    src: url("../webfonts/ITCAvantGardeStd/ITCAvantGardeStd-Bold.ttf");
+}
+
+.font-primary {
+    font-family: bcs-primary-bold;
+}
+
 a:focus,
 input:focus,
 textarea:focus,
@@ -2186,7 +2196,8 @@ Home 3 CSS
     top: 0;
     width: 50%;
     height: 100%;
-    background-image: url(../image/service-3-bg.png);
+    background-image: url(../image/home/bk-transparent.png);
+    /* background-image: url(../image/service-3-bg.png); */
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;

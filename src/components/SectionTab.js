@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import screen from "../assets/image/home/screen.png";
+
 export class SectionTab extends Component {
   render() {
     return (
@@ -41,7 +43,7 @@ export class SectionTab extends Component {
                       aria-controls="home"
                       aria-selected="true"
                     >
-                      1. Mobile Apps Development
+                      <b>bcs-meida</b> system
                     </a>
                   </li>
                   <li className="nav-item">
@@ -54,7 +56,7 @@ export class SectionTab extends Component {
                       aria-controls="profile"
                       aria-selected="false"
                     >
-                      2. Web Development
+                      bcs-media <b>web</b>
                     </a>
                   </li>
                   <li className="nav-item">
@@ -81,25 +83,28 @@ export class SectionTab extends Component {
                   aria-labelledby="home-tab"
                 >
                   <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-8 d-flex align-items-center">
                       <div className="home-3-section-title">
-                        <h2>
-                          We turn your idea in <strong>mobile apps.</strong>
-                        </h2>
+                        <h2>Pantallas digitales</h2>
                         <p>
-                          If you are looking for great ways to decorate your
-                          home or office, then you know as well as I do that you
-                          have nearly countless options. There are so many ways
-                          to decorate.
+                          Independientemente de la cantidad de pantallas digtales que necesites manejar,
+                          ahora todo es más fácil de administrar a través de las capacidades optimizadas
+                          y centralizadas de la solición basada en la red que reúne todo en un formato
+                          simplificado, y ademásle brinda una administración de supervisión completa
+                          de sus implementaciones de contenido. <br></br>
+                          Además, mejora la creación, gestión y dinámica del contenido, que anteriormente
+                          era complejo, y procesa todas esas funciones en una rutina. <br></br>
+                          Básicamente nos permite involucrar a los clientes de manera más rápida
+                          y con menos esfuerzo.
                         </p>
                         <a href="" className="white border-boxed-btn">
                           Get Estimated Price
                         </a>
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-4">
                       <div className="home-3-tab-img">
-                        <img src="assets/image/home-3-tab.png" alt="" />
+                        <img src={screen} alt="" />
                       </div>
                     </div>
                   </div>

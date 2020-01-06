@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import hero from "../assets/image/home/sistema.png";
+
 export class Hero extends Component {
   render() {
     return (
@@ -17,7 +19,7 @@ export class Hero extends Component {
                   data-wow-delay="0.5s"
                   data-wow-duration="1s"
                 >
-                  We help you to boost your <strong>business.</strong>
+                  <strong className="font-primary color-primary">bcs</strong>-media
                 </h1>
                 <p className="wow fadeInUp" data-wow-delay="0.3s">
                   Like any great agency we are only as good as the results we
@@ -45,7 +47,8 @@ export class Hero extends Component {
               data-wow-duration="1s"
             >
               <div className="home-3-hore-img">
-                <img src="assets/image/home-3-hero-img.png" alt="" />
+                <img src={hero} alt="" />
+                {/* <img src="/assets/image/home-3-hero-img.png" alt="" /> */}
               </div>
             </div>
           </div>

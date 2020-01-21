@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import screen from "../assets/image/home/screen.png";
 
+import homeTab from "../assets/image/bcs-media/home-3-tab.png";
+
 export class SectionTab extends Component {
   render() {
     return (
@@ -134,7 +136,7 @@ export class SectionTab extends Component {
                     </div>
                     <div className="col-lg-6">
                       <div className="home-3-tab-img">
-                        <img src="assets/image/home-3-tab.png" alt="" />
+                        <img src={homeTab} alt="" />
                       </div>
                     </div>
                   </div>
@@ -164,7 +166,7 @@ export class SectionTab extends Component {
                     </div>
                     <div className="col-lg-6">
                       <div className="home-3-tab-img">
-                        <img src="assets/image/home-3-tab.png" alt="" />
+                        <img src={homeTab} alt="" />
                       </div>
                     </div>
                   </div>

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import img_quote from "../assets/image/bcs-media/home-3-quote.png";
+
 export class Testimonials extends Component {
   render() {
     return (
@@ -13,7 +15,7 @@ export class Testimonials extends Component {
               <div className="owl-carousel testimonial-carousel">
                 <div className="single-testimonial-item">
                   <div className="testimonial-content">
-                    <img src="assets/image/home-3-quote.png" alt="" />
+                    <img src={img_quote} alt="" />
                     <p>
                       “ On first impression, the last sentence sounds patently
                       wrong. We all know about human collectives that regarded
@@ -36,7 +38,7 @@ export class Testimonials extends Component {
                 </div>
                 <div className="single-testimonial-item">
                   <div className="testimonial-content">
-                    <img src="assets/image/home-3-quote.png" alt="" />
+                    <img src={img_quote} alt="" />
                     <p>
                       “ On first impression, the last sentence sounds patently
                       wrong. We all know about human collectives that regarded
@@ -59,7 +61,7 @@ export class Testimonials extends Component {
                 </div>
                 <div className="single-testimonial-item">
                   <div className="testimonial-content">
-                    <img src="assets/image/home-3-quote.png" alt="" />
+                    <img src={img_quote} alt="" />
                     <p>
                       “ On first impression, the last sentence sounds patently
                       wrong. We all know about human collectives that regarded

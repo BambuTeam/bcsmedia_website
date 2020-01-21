@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import hero from "../assets/image/home/sistema.png";
+import HomeAnimated from "../assets/image/bcs-media/animations/home/home"
 
 export class Hero extends Component {
   render() {
@@ -47,7 +48,8 @@ export class Hero extends Component {
               data-wow-duration="1s"
             >
               <div className="home-3-hore-img">
-                <img src={hero} alt="" />
+                <HomeAnimated />
+                {/* <img src={homeAnimated} alt="" /> */}
                 {/* <img src="/assets/image/home-3-hero-img.png" alt="" /> */}
               </div>
             </div>

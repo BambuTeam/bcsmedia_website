@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import logoBcsmedia from "../assets/image/bcs-media/logo_bcsmedia_white.png"
+
 export class Footer extends Component {
   render() {
     return (
@@ -21,11 +23,11 @@ export class Footer extends Component {
                     data-wow-delay="0.4s"
                     data-wow-duration="1s"
                   >
-                    <form id="mc-form">
+                    <form id="mc-form-footer">
                       <input
                         type="email"
                         placeholder="Email Address"
-                        id="mc-email"
+                        id="mc-email-footer"
                       />
                       <button type="submit">Get your Estimate</button>
                     </form>
@@ -42,7 +44,7 @@ export class Footer extends Component {
               <div className="col-lg-3">
                 <div className="footer-logo">
                   <a href="index.html">
-                    <img src="assets/image/logo/sticky_logo_red.png" alt="" />
+                    <img src={logoBcsmedia} alt="" width="120" />
                   </a>
                 </div>
               </div>

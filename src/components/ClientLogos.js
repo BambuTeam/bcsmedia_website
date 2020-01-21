@@ -17,32 +17,32 @@ export class ClientLogos extends Component {
               <div className="owl-carousel client-logo-carousel">
                 <div className="single-client-item">
                   <div className="single-client-item-cell">
-                    <img src="assets/image/client-logo-1.png" alt="" />
+                    <img src="assets/image/bcs-media/client-logo-1.png" alt="" />
                   </div>
                 </div>
                 <div className="single-client-item">
                   <div className="single-client-item-cell">
-                    <img src="assets/image/client-logo-2.png" alt="" />
+                    <img src="assets/image/bcs-media/client-logo-2.png" alt="" />
                   </div>
                 </div>
                 <div className="single-client-item">
                   <div className="single-client-item-cell">
-                    <img src="assets/image/client-logo-3.png" alt="" />
+                    <img src="assets/image/bcs-media/client-logo-3.png" alt="" />
                   </div>
                 </div>
                 <div className="single-client-item">
                   <div className="single-client-item-cell">
-                    <img src="assets/image/client-logo-4.png" alt="" />
+                    <img src="assets/image/bcs-media/client-logo-4.png" alt="" />
                   </div>
                 </div>
                 <div className="single-client-item">
                   <div className="single-client-item-cell">
-                    <img src="assets/image/client-logo-5.png" alt="" />
+                    <img src="assets/image/bcs-media/client-logo-5.png" alt="" />
                   </div>
                 </div>
                 <div className="single-client-item">
                   <div className="single-client-item-cell">
-                    <img src="assets/image/client-logo-1.png" alt="" />
+                    <img src="assets/image/bcs-media/client-logo-1.png" alt="" />
                   </div>
                 </div>
               </div>

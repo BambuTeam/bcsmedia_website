@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // Assets
-import logoBcsmedia from "../assets/image/logo/logo_bcsmedia.png"
+import logoBcsmedia from "../assets/image/bcs-media/logo_bcsmedia.png"
 
 export class Header extends Component {
   render() {

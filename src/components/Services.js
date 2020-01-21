@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 
+import img_service_1 from "../assets/image/bcs-media/home-3-service-1.png";
+import img_service_2 from "../assets/image/bcs-media/home-3-service-2.png";
+import img_service_3 from "../assets/image/bcs-media/home-3-service-3.png";
+
 export class Services extends Component {
   render() {
     return (
@@ -30,7 +34,7 @@ export class Services extends Component {
               data-wow-duration="1s"
             >
               <div className="single-service-item home-3-single-service-item">
-                <img src="assets/image/home-3-service-1.png" alt="" />
+                <img src={img_service_1} alt="" />
                 <h4>We brainstormed</h4>
                 <p>
                   Let’s find to them! My first and foremost form of traffic
@@ -44,7 +48,7 @@ export class Services extends Component {
               data-wow-duration="1s"
             >
               <div className="single-service-item home-3-single-service-item">
-                <img src="assets/image/home-3-service-2.png" alt="" />
+                <img src={img_service_2} alt="" />
                 <h4>Made a prototype</h4>
                 <p>
                   A gentleman from New York discovered what he calls an
@@ -58,7 +62,7 @@ export class Services extends Component {
               data-wow-duration="1s"
             >
               <div className="single-service-item home-3-single-service-item">
-                <img src="assets/image/home-3-service-3.png" alt="" />
+                <img src={img_service_3} alt="" />
                 <h4>Set up analytics</h4>
                 <p>
                   Let’s find to them! My first and foremost form of traffic

@@ -7,3 +7,12 @@
 /* Custom SCSS for website */
 @import './_variables.scss';
 
+// Hero Section
+.hero-area.home-3-hero-bg {
+  background-image: url("../image/bcs-media/home-hero-bg.png");
+}
+
+.service-3-bgi:after {
+  /*1252.75*/
+  background-image: url("../image/bcs-media/service-3-bg.png");
+}

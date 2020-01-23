@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // Assets
 import logoBcsmedia from "../assets/image/bcs-media/logo_bcsmedia.png"
+import logosvg from "../assets/image/bcs-media/logo.svg"
 
 export class Header extends Component {
   render() {
@@ -12,7 +13,7 @@ export class Header extends Component {
               <div className="col-md-2 col-sm-6 w-50">
                 <div className="logo">
                   <a href="#mainmenu-area">
-                    <img src={logoBcsmedia} alt="" width="70px" />
+                    <img src={logosvg} alt="" width="70px" />
                   </a>
                 </div>
               </div>

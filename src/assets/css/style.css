@@ -27,7 +27,6 @@ Base CSS
 =======*/
 
 @import url('https://fonts.googleapis.com/css?family=Overpass:300,400,400i,600,600i,700,700i&display=swap');
-
 @font-face {
     font-family: "bcs-primary-bold";
     src: url("../webfonts/ITCAvantGardeStd/ITCAvantGardeStd-Bold.otf");
@@ -78,6 +77,7 @@ body {
 .ovr-h {
     overflow: hidden;
 }
+
 
 /*=== Align Items ===*/
 
@@ -156,7 +156,6 @@ a.boxed-btn,
 }
 
 
-
 /*=== Header area CSS ===*/
 
 .header-area {
@@ -223,8 +222,8 @@ button#menu-button {
     border-radius: 5px;
 }
 
-.mainmenu li > a.active:after,
-.mainmenu li:hover > a:after {
+.mainmenu li>a.active:after,
+.mainmenu li:hover>a:after {
     width: 100%;
     left: 0;
     right: auto;
@@ -265,14 +264,14 @@ button#menu-button {
     color: #000;
 }
 
-.mainmenu li li:hover > a {
+.mainmenu li li:hover>a {
     background: #FFBC48;
     color: #ffffff;
 }
 
-.mainmenu li:hover > a,
-.home-2-header-area .mainmenu li:hover > a,
-.footer-mainmenu li:hover > a {
+.mainmenu li:hover>a,
+.home-2-header-area .mainmenu li:hover>a,
+.footer-mainmenu li:hover>a {
     color: #FFBC48;
 }
 
@@ -299,16 +298,20 @@ button#menu-button {
     transform: scaleX(1) !important;
 }
 
+
 /*----------------------------
     VARIENT
 ----------------------------*/
+
 .home-2 .mainmenu li a {
     color: #ffffff;
 }
 
+
 /*--------------------------
     END VARIENT
 ---------------------------*/
+
 #mainmenu-area-sticky-wrapper {
     position: relative;
     z-index: 9;
@@ -421,12 +424,10 @@ a.boxed-btn:hover,
         -webkit-transform: scale(1);
         transform: scale(1);
     }
-
     50% {
         -webkit-transform: scale(.9);
         transform: scale(.9);
     }
-
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -438,12 +439,10 @@ a.boxed-btn:hover,
         -webkit-transform: scale(1);
         transform: scale(1);
     }
-
     50% {
         -webkit-transform: scale(.9);
         transform: scale(.9);
     }
-
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -460,6 +459,7 @@ a.boxed-btn:hover,
 
 
 /*=== Client logo area CSS ====*/
+
 .home-1 .client-logo-area {
     color: #aaafbe;
 }
@@ -769,17 +769,14 @@ a.boxed-btn:hover,
         -webkit-transform: scale(1);
         transform: scale(1);
     }
-
     50% {
         -webkit-transform: scale(.5);
         transform: scale(.5);
     }
-
     75% {
         -webkit-transform: scale(.8);
         transform: scale(.8);
     }
-
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -791,17 +788,14 @@ a.boxed-btn:hover,
         -webkit-transform: scale(1);
         transform: scale(1);
     }
-
     50% {
         -webkit-transform: scale(.5);
         transform: scale(.5);
     }
-
     75% {
         -webkit-transform: scale(.8);
         transform: scale(.8);
     }
-
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -907,7 +901,6 @@ a.boxed-btn:hover,
     margin-left: 20px;
 }
 
-
 .footer-subscribe-form input[type="email"] {
     border: #E3E3E3 solid 1px;
 }
@@ -986,7 +979,7 @@ Home 2 area CSS
     color: #2F7BFF;
 }
 
-.home-2-header-area .mainmenu li li > a,
+.home-2-header-area .mainmenu li li>a,
 .is-sticky .home-2-header-area .mainmenu li ul li a {
     color: #000;
 }
@@ -995,7 +988,7 @@ Home 2 area CSS
     color: #ffffff;
 }
 
-.home-2-header-area .mainmenu li li:hover > a {
+.home-2-header-area .mainmenu li li:hover>a {
     background: #2F86FF;
 }
 
@@ -1004,13 +997,13 @@ Home 2 area CSS
     color: #ffffff;
 }
 
-.is-sticky .home-2-header-area .mainmenu ul li > a:after,
-.is-sticky .home-2-header-area .mainmenu ul li:hover > a:after {
+.is-sticky .home-2-header-area .mainmenu ul li>a:after,
+.is-sticky .home-2-header-area .mainmenu ul li:hover>a:after {
     background: #2F7BFF;
 }
 
 .header-area-5 .mainmenu li ul li a.active,
-.is-sticky .home-2-header-area .mainmenu ul li > a.active {
+.is-sticky .home-2-header-area .mainmenu ul li>a.active {
     color: #1255DB !important;
 }
 
@@ -1025,6 +1018,7 @@ Home 2 area CSS
     transition: .3s;
 }
 
+
 /*=== Hero area ===*/
 
 .home-2 .hero-area {
@@ -1034,7 +1028,6 @@ Home 2 area CSS
 .home-2 .hero-area .area-bg {
     background: rgba(0, 0, 0, 0) url("../image/home-2-hero-bg.png") no-repeat scroll center center / 100% 100%;
 }
-
 
 .hero-area.home-2-hero-bg {
     background-position: center;
@@ -1081,7 +1074,6 @@ a.home-2-border-btn:hover i {
     background: #fff;
     color: #2F89FF;
 }
-
 
 .home-2-section-title h2 {
     font-size: 40px;
@@ -1294,28 +1286,24 @@ img.h-2-img {
         right: -10%;
         top: 0;
     }
-
     25% {
         right: -10%;
         top: 15%;
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
     }
-
     50% {
         right: 3%;
         top: 15%;
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
     }
-
     75% {
         right: 3%;
         top: 0;
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
     }
-
     100% {
         right: -10%;
         top: 0;
@@ -1336,28 +1324,24 @@ img.h-2-img-2 {
         left: -10%;
         bottom: 0;
     }
-
     25% {
         left: -10%;
         bottom: 15%;
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
     }
-
     50% {
         left: 3%;
         bottom: 15%;
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
     }
-
     75% {
         left: 3%;
         bottom: 0;
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
     }
-
     100% {
         left: -10%;
         bottom: 0;
@@ -1519,7 +1503,7 @@ About page area CSS
 .about-bg {
     background: #ffffff;
     background: linear-gradient(to bottom, #ffffff 0%, #eff2ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eff2ff', GradientType=0);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eff2ff', GradientType=0);
 }
 
 .breadcromb-area {
@@ -1550,8 +1534,7 @@ About page area CSS
 .box {
     background: #ebeefe;
     background: linear-gradient(to right, #ebeefe 0%, #F9FAFF 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebeefe', endColorstr='#F9FAFF', GradientType=1);
-
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ebeefe', endColorstr='#F9FAFF', GradientType=1);
 }
 
 .box:before {
@@ -1565,7 +1548,6 @@ About page area CSS
     background: #F9FAFF;
     border-radius: 50%;
 }
-
 
 .c-border-2 span {
     position: absolute;
@@ -1734,9 +1716,11 @@ Blog area CSS
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .learn-more-btn {
     margin-top: 30px;
 }
+
 .blog-meta,
 .blog-meta a {
     color: #7f8fac;
@@ -1755,15 +1739,18 @@ Blog area CSS
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.instagram-posts img,.recent-post img {
+
+.instagram-posts img,
+.recent-post img {
     border-radius: 5px;
-    box-shadow: 0 4px 16px rgba(0,0,0,.1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .1);
 }
 
 .instagram-posts img {
     margin-bottom: 10px;
     margin-right: 8px;
 }
+
 .single-blog-box h4 {
     font-size: 24px;
 }
@@ -1844,6 +1831,7 @@ Blog area CSS
     margin-bottom: 20px;
     background: #fff9ee;
 }
+
 .single-blog-box .border-boxed-btn:hover {
     background: #ffbc48;
 }
@@ -2136,19 +2124,22 @@ a.border-boxed-btn.m-35 {
     background: #fff9ee;
     height: 43px;
 }
+
 .single-post-area a.border-boxed-btn:hover {
     background: #ffbc48;
 }
+
+
 /*==========
 Home 3 CSS
 ==========*/
 
-.home-3-header-area .mainmenu li:hover > a,
-.home-3-header-area .mainmenu li > a.active {
+.home-3-header-area .mainmenu li:hover>a,
+.home-3-header-area .mainmenu li>a.active {
     color: #FF6347 !important;
 }
 
-.header-area-1.home-3-header-area .mainmenu li ul li:hover > a {
+.header-area-1.home-3-header-area .mainmenu li ul li:hover>a {
     background: #FF6347;
 }
 
@@ -2175,8 +2166,8 @@ Home 3 CSS
     border-color: #FF6347;
 }
 
-.home-3-header-area .mainmenu li:hover > a:after,
-.home-3-header-area .mainmenu li > a.active:after {
+.home-3-header-area .mainmenu li:hover>a:after,
+.home-3-header-area .mainmenu li>a.active:after {
     background-color: #FF6347;
 }
 
@@ -2206,10 +2197,10 @@ Home 3 CSS
 }
 
 .service-3-bg {
-  background-color: #ffffff;
-  box-shadow: 0 20px 50px 0 rgba(85, 92, 121, 0.04);
-  max-width: 1200px;
-  padding: 80px 50px 50px;
+    background-color: #ffffff;
+    box-shadow: 0 20px 50px 0 rgba(85, 92, 121, 0.04);
+    max-width: 1200px;
+    padding: 80px 50px 50px;
 }
 
 .home-3-single-service-item .icon-img-table {
@@ -2232,7 +2223,7 @@ Home 3 CSS
 
 .hero-area.home-3-hero-bg {
     width: 100%;
-    background-image: url(../image/home-3-hero-bg.png);
+    background-image: url(../image/bk-home-1.svg);
     background-size: 58% 100%;
     background-position: top right;
     background-repeat: no-repeat;
@@ -2353,7 +2344,6 @@ Home 3 CSS
     margin: 0;
 }
 
-
 .home-3-tab-list ul li {
     width: 33.33%;
 }
@@ -2364,10 +2354,10 @@ Home 3 CSS
 }
 
 .home-3-tab-list ul {
-  border-bottom: medium none;
-  margin-bottom: 60px;
-  position: relative;
-  z-index: 1;
+    border-bottom: medium none;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 1;
 }
 
 .home-3-tab-list ul:after {
@@ -2410,7 +2400,7 @@ Home 3 CSS
     background: #1C233D;
 }
 
-.home-3-footer-area .footer-mainmenu li:hover > a {
+.home-3-footer-area .footer-mainmenu li:hover>a {
     color: #FF6347;
 }
 
@@ -2455,17 +2445,17 @@ Home 4
     color: #233d63;
 }
 
-.header-area-4 .mainmenu li:hover > a,
-.header-area-4 .mainmenu li > a.active {
+.header-area-4 .mainmenu li:hover>a,
+.header-area-4 .mainmenu li>a.active {
     color: #6315FF !important;
 }
 
-.is-sticky .header-area-4 .mainmenu ul li > a.active {
+.is-sticky .header-area-4 .mainmenu ul li>a.active {
     color: #6315FF !important;
 }
 
-.header-area-4 .mainmenu ul li > a.active:after,
-.header-area-4 .mainmenu li > a:after {
+.header-area-4 .mainmenu ul li>a.active:after,
+.header-area-4 .mainmenu li>a:after {
     background-color: #6315FF !important;
 }
 
@@ -2825,6 +2815,7 @@ Home 4
 /*============
 Home 5 CSS
 ============*/
+
 .home-5 .testimonial-content {
     color: #ffffff;
     font-size: 18px;
@@ -2957,7 +2948,6 @@ Home 5 CSS
     color: #EC4C5C;
 }
 
-
 .hero-bg-5 {
     align-items: center;
     background: #172082 none repeat scroll 0 0;
@@ -3060,7 +3050,6 @@ Home 5 CSS
     color: #EC4C5C;
 }
 
-
 .home-5 .mainmenu li a {
     color: #ffffff;
 }
@@ -3070,10 +3059,9 @@ Home 5 CSS
     color: #EC4C5C !important;
 }
 
-.is-sticky .home-2-header-area .mainmenu ul li > a.active,
-.is-sticky .home-2-header-area .mainmenu ul li > a:hover {
+.is-sticky .home-2-header-area .mainmenu ul li>a.active,
+.is-sticky .home-2-header-area .mainmenu ul li>a:hover {
     color: #1255db !important;
-
 }
 
 .is-sticky .home-2-header-area .mainmenu ul li li a.active,
@@ -3086,6 +3074,7 @@ Home 5 CSS
 .home-5 .is-sticky .mainmenu li a::after {
     background: #EC4C5C none repeat scroll 0 0;
 }
+
 
 /*============
 Home 6 CSS
@@ -3103,21 +3092,21 @@ Home 6 CSS
     color: #888;
 }
 
-.is-sticky .header-area-6 .mainmenu li:hover > a {
+.is-sticky .header-area-6 .mainmenu li:hover>a {
     color: #1F70E5;
 }
 
-.header-area-6 .mainmenu li ul li:hover > a,
-.is-sticky .header-area-6 .mainmenu li > a:after {
+.header-area-6 .mainmenu li ul li:hover>a,
+.is-sticky .header-area-6 .mainmenu li>a:after {
     background: #1F70E5;
     color: #ffffff !important;
 }
 
-.header-area-6 .mainmenu li:hover > a {
+.header-area-6 .mainmenu li:hover>a {
     color: #FEC00F;
 }
 
-.is-sticky .header-area-6 .mainmenu li > a.active {
+.is-sticky .header-area-6 .mainmenu li>a.active {
     color: #1F70E5 !important;
 }
 
@@ -3168,7 +3157,7 @@ Home 6 CSS
     color: #387BFF;
 }
 
-.header-area-6 .mainmenu li ul li > a {
+.header-area-6 .mainmenu li ul li>a {
     color: #888;
 }
 
@@ -3202,17 +3191,17 @@ Home 6 CSS
 }
 
 .single-service-6-item::after {
-  background: rgba(0, 0, 0, 0) linear-gradient(135deg, #131ef8 0%, #057ded 100%) repeat scroll 0 0;
-  border-radius: 5px;
-  content: "";
-  height: 100%;
-  left: 0;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  transition: all 0.5s ease-in-out 0s;
-  width: 100%;
-  z-index: -1;
+    background: rgba(0, 0, 0, 0) linear-gradient(135deg, #131ef8 0%, #057ded 100%) repeat scroll 0 0;
+    border-radius: 5px;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.5s ease-in-out 0s;
+    width: 100%;
+    z-index: -1;
 }
 
 .single-service-6-item:hover:after {
@@ -3224,12 +3213,15 @@ Home 6 CSS
     background: #131ef8;
     background: linear-gradient(135deg, #131ef8 0%, #057ded 100%);
 }
-.single-service-6-item-bg-2:after{
-    background: linear-gradient(135deg, #9e00f8 0%, #5700ed 100%);    
+
+.single-service-6-item-bg-2:after {
+    background: linear-gradient(135deg, #9e00f8 0%, #5700ed 100%);
 }
-.single-service-6-item-bg-3:after{   
+
+.single-service-6-item-bg-3:after {
     background: linear-gradient(135deg, #f8a100 0%, #ed7000 100%);
 }
+
 .single-service-6-item-bg-2:hover:after,
 .service-6-item.service-6-item-2 i {
     background: #9e00f8;
@@ -3248,9 +3240,10 @@ Home 6 CSS
 }
 
 .service-6-item {
-  color: #ffffff;
-  position: relative;
+    color: #ffffff;
+    position: relative;
 }
+
 .service-6-item .service-sub-icon i {
     width: 30px;
     height: 30px;
@@ -3418,17 +3411,21 @@ Home 6 CSS
 .single-blog-6-item {
     background-color: #fff;
 }
+
 .blog-6-area-bg .area-bg {
-  background: rgba(0, 0, 0, 0) url("../image/blog-6-bg.png") no-repeat scroll center center / 100% 100%;
+    background: rgba(0, 0, 0, 0) url("../image/blog-6-bg.png") no-repeat scroll center center / 100% 100%;
 }
+
 .blog-6-bg {
     background-size: cover;
     background-position: center;
     height: 220px;
 }
+
 .single-blog-6-item {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
+
 .blog-6-content {
     padding: 30px 20px;
 }
@@ -3550,6 +3547,7 @@ Home 6 CSS
 /*===============
 Home 7 CSS
 ================*/
+
 .home-7 .mainmenu li a {
     color: #ffffff;
 }
@@ -3570,11 +3568,11 @@ Home 7 CSS
     border: #fff solid 1px;
 }
 
-.is-sticky .header-area-7 ul li > a {
+.is-sticky .header-area-7 ul li>a {
     color: #000;
 }
 
-.header-area-7 .mainmenu li ul li:hover > a {
+.header-area-7 .mainmenu li ul li:hover>a {
     background: #FE5D89;
     color: #ffffff;
 }
@@ -3593,8 +3591,8 @@ Home 7 CSS
     color: #FE5D89;
 }
 
-.is-sticky .header-area-7 ul li:hover > a,
-.header-area-7 ul li:hover > a {
+.is-sticky .header-area-7 ul li:hover>a,
+.header-area-7 ul li:hover>a {
     color: #FE5D89;
 }
 
@@ -3676,26 +3674,22 @@ Home 7 CSS
         right: 75px;
         bottom: 0;
     }
-
     25% {
         right: -50px;
         bottom: 0;
     }
-
     50% {
         right: -50px;
         bottom: 100px;
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
     }
-
     75% {
         right: 0;
         bottom: 100px;
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
     }
-
     100% {
         right: 75px;
         bottom: 0;
@@ -3707,26 +3701,22 @@ Home 7 CSS
         right: 75px;
         bottom: 0;
     }
-
     25% {
         right: -50px;
         bottom: 0;
     }
-
     50% {
         right: -50px;
         bottom: 100px;
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
     }
-
     75% {
         right: 0;
         bottom: 100px;
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
     }
-
     100% {
         right: 75px;
         bottom: 0;
@@ -3746,26 +3736,22 @@ Home 7 CSS
         left: 75px;
         bottom: 0;
     }
-
     25% {
         left: -50px;
         bottom: 0;
     }
-
     50% {
         left: -50px;
         bottom: 100px;
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
     }
-
     75% {
         left: 0;
         bottom: 100px;
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
     }
-
     100% {
         left: 75px;
         bottom: 0;
@@ -3777,26 +3763,22 @@ Home 7 CSS
         left: 75px;
         bottom: 0;
     }
-
     25% {
         left: -50px;
         bottom: 0;
     }
-
     50% {
         left: -50px;
         bottom: 100px;
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
     }
-
     75% {
         left: 0;
         bottom: 100px;
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
     }
-
     100% {
         left: 75px;
         bottom: 0;
@@ -4047,26 +4029,22 @@ ul.check-icon {
         left: 0;
         top: 0;
     }
-
     25% {
         left: -200px;
         top: 0;
     }
-
     50% {
         left: -200px;
         top: 100px;
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
     }
-
     75% {
         left: 0;
         top: 100px;
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
     }
-
     100% {
         left: 0;
         top: 0;
@@ -4078,26 +4056,22 @@ ul.check-icon {
         left: 0;
         top: 0;
     }
-
     25% {
         left: -200px;
         top: 0;
     }
-
     50% {
         left: -200px;
         top: 100px;
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
     }
-
     75% {
         left: 0;
         top: 100px;
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
     }
-
     100% {
         left: 0;
         top: 0;
@@ -4117,26 +4091,22 @@ img.dot-img-2 {
         left: 0;
         bottom: 0;
     }
-
     25% {
         left: -200px;
         bottom: 0;
     }
-
     50% {
         left: -200px;
         bottom: 100px;
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
     }
-
     75% {
         left: 0;
         bottom: 100px;
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
     }
-
     100% {
         left: 0;
         bottom: 0;
@@ -4148,26 +4118,22 @@ img.dot-img-2 {
         left: 0;
         bottom: 0;
     }
-
     25% {
         left: -200px;
         bottom: 0;
     }
-
     50% {
         left: -200px;
         bottom: 100px;
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
     }
-
     75% {
         left: 0;
         bottom: 100px;
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
     }
-
     100% {
         left: 0;
         bottom: 0;
@@ -4245,17 +4211,14 @@ img.dot_b_4 {
         -webkit-transform: scale(1) rotate(0deg);
         transform: scale(1) rotate(0deg);
     }
-
     50% {
         -webkit-transform: scale(0) rotate(45deg);
         transform: scale(0) rotate(45deg);
     }
-
     75% {
         -webkit-transform: scale(.6) rotate(-45deg);
         transform: scale(.6) rotate(-45deg);
     }
-
     100% {
         -webkit-transform: scale(1) rotate(0deg);
         transform: scale(1) rotate(0deg);
@@ -4267,17 +4230,14 @@ img.dot_b_4 {
         -webkit-transform: scale(1) rotate(0deg);
         transform: scale(1) rotate(0deg);
     }
-
     50% {
         -webkit-transform: scale(0) rotate(45deg);
         transform: scale(0) rotate(45deg);
     }
-
     75% {
         -webkit-transform: scale(.6) rotate(-45deg);
         transform: scale(.6) rotate(-45deg);
     }
-
     100% {
         -webkit-transform: scale(1) rotate(0deg);
         transform: scale(1) rotate(0deg);
@@ -4331,7 +4291,7 @@ img.dot_b_4 {
     width: 370px;
 }
 
-.all-pricing-section .tab-content > .tab-pane {
+.all-pricing-section .tab-content>.tab-pane {
     display: block;
 }
 
@@ -4426,14 +4386,14 @@ a.boxed-btn:hover,
 
 /*=== Color white ===*/
 
-.mainmenu li li:hover > a,
+.mainmenu li li:hover>a,
 .border-boxed-btn:hover,
 .subscribe-form button,
 .contact-form form p button,
 a.boxed-btn,
 .contact-form-area button,
 .case-study-btn button,
-.home-2-header-area .mainmenu li li:hover > a,
+.home-2-header-area .mainmenu li li:hover>a,
 .hero-area.home-2-hero-bg,
 .client-logo-area h6.home-2-client-logo,
 .home-2-header-area li a,
@@ -4446,7 +4406,7 @@ a.boxed-btn,
 .home-2-footer-area h4,
 .tagcloud a:hover,
 .single-post-tag .social-share a:hover,
-.header-area-1.home-3-header-area .mainmenu li ul li:hover > a,
+.header-area-1.home-3-header-area .mainmenu li ul li:hover>a,
 .is-sticky .home-3-header-area .border-boxed-btn,
 .home-3-tab-section .home-3-section-title .border-boxed-btn,
 .home-3-contact-area .contact-form form p button,
@@ -4479,8 +4439,8 @@ a.boxed-btn,
 .contact-form-5 form p label,
 .header-area-5 .mainmenu li a,
 .header-area-6 .mainmenu li a,
-.is-sticky .header-area-6 .mainmenu li ul li:hover > a,
-.header-area-6 .mainmenu li ul li:hover > a,
+.is-sticky .header-area-6 .mainmenu li ul li:hover>a,
+.header-area-6 .mainmenu li ul li:hover>a,
 .logo h2,
 .is-sticky .header-area-6 a.border-boxed-btn:hover,
 .header-area-6 a.border-boxed-btn:hover,
@@ -4493,7 +4453,7 @@ a.boxed-btn,
 .subscribe-6-area h2,
 .social-link.home-6 a:hover,
 .header-area-7 .mainmenu li a,
-.header-area-7 .mainmenu li ul li:hover > a,
+.header-area-7 .mainmenu li ul li:hover>a,
 .is-sticky .header-area-7 a.border-boxed-btn,
 .header-area-7 .border-boxed-btn:hover,
 .hero-title-6 h1,
@@ -4639,9 +4599,11 @@ a.boxed-btn,
     background: url(../image/preloader/preloader.gif) center no-repeat #fff;
 }
 
+
 /*==============================
     FIXING
 ===============================*/
+
 .service-tab.section-padding {
     padding-bottom: 400px;
 }

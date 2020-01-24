@@ -80,7 +80,7 @@ export class Footer extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6">
-                                Copyright &copy; 2019 QuomodoTheme All Right Reserved.</div>
+                                Copyright &copy; 2020 Bcs Media .</div>
                             <div className="col-lg-6">
                                 <div className="social-link">
                                     <a href="#">

@@ -138,6 +138,7 @@ a.boxed-btn,
 .single-service-7-2-item,
 .all-pricing-section .single-tab-7 {
     border-radius: 3px;
+    
 }
 
 
@@ -2137,22 +2138,22 @@ Home 3 CSS
 
 .home-3-header-area .mainmenu li:hover>a,
 .home-3-header-area .mainmenu li>a.active {
-    color: #ff6347 !important;
+    color: #ce0e2d !important;
 }
 
 .header-area-1.home-3-header-area .mainmenu li ul li:hover>a {
-    background: #ff6347;
+    background: #ce0e2d;
 }
 
 .is-sticky .home-3-header-area .border-boxed-btn {
-    background: #ff6347;
-    border: 1px solid #ff6347;
+    background: #ce0e2d;
+    border: 1px solid #ce0e2d;
     color: #ffffff;
 }
 
 .home-3-header-area .border-boxed-btn {
     border: 1px solid #ffffff;
-    color: #ff6347;
+    color: #ce0e2d;
 }
 
 .is-sticky .home-3-header-area .border-boxed-btn:hover,
@@ -2160,16 +2161,16 @@ Home 3 CSS
 .home-3-contact-area form p button.boxed-btn:hover,
 .home-3-footer-area .subscribe-form button:hover,
 .home-3-header-area .border-boxed-btn:hover {
-    color: #ff6347;
+    color: #ce0e2d;
 }
 
 .home-3-header-area .border-boxed-btn:hover {
-    border-color: #ff6347;
+    border-color: #ce0e2d;
 }
 
 .home-3-header-area .mainmenu li:hover>a:after,
 .home-3-header-area .mainmenu li>a.active:after {
-    background-color: #ff6347;
+    background-color: #ce0e2d;
 }
 
 .home-3-header-area .mainmenu li ul li:hover a {
@@ -2237,7 +2238,7 @@ Home 3 CSS
 
 .subscribe-form.home-3-subscribe-form button {
     background: #ce0e2d;
-    box-shadow: 0 5px 15px #ff634794;
+    box-shadow: 0 5px 15px #ce0e2d;
     padding: 15px 50px;
     border: #ce0e2d solid 1px;
     border-radius: 10px;
@@ -2248,7 +2249,7 @@ Home 3 CSS
 .home-3-contact-area form p textarea:focus {
     color: #79879d;
     background-color: rgba(255, 99, 71, 0.14);
-    border-color: #ff6347;
+    border-color: #ce0e2d;
 }
 
 .subscribe-form.home-3-subscribe-form button:hover {
@@ -2286,10 +2287,11 @@ Home 3 CSS
 .home-3-tab-section .home-3-section-title .border-boxed-btn,
 .home-3-contact-area .contact-form form p button,
 .home-3-footer-area .subscribe-form button {
-    background: #ff6347;
+    background: #ce0e2d;
     margin-top: 30px;
-    border-color: #ff6347;
-    box-shadow: 0 5px 15px #ff634794;
+    border-color: #ce0e2d;
+    box-shadow: 0 5px 15px #ce0e2d;
+    border-radius: 10px;
 }
 
 .contact-form .home-3-section-title {
@@ -2303,8 +2305,8 @@ Home 3 CSS
 
 .home-3-footer-area .subscribe-form input[type="email"] {
     padding: 15px 32px;
-    background-color: #303a5b;
-    border-color: #303a5b;
+    background-color: #000;
+    border-color: #777;
 }
 
 .home-3-footer-area .subscribe-form input[type="email"]::-webkit-input-placeholder {
@@ -2328,14 +2330,15 @@ Home 3 CSS
 }
 
 .home-3-footer-area .subscribe-form button {
-    background: #387bff;
-    border-color: #387bff;
-    box-shadow: 0 5px 15px #387bff85;
+    background: #000;
+    border-color: #fff;
+    box-shadow: 0 5px 15px #000;
     margin-top: 0;
+    border-radius: 10px;
 }
 
 .home-3-footer-area .subscribe-form button:hover {
-    color: #387bff;
+    color: #000;
 }
 
 .home-3-contact-area form p button.boxed-btn {
@@ -2391,19 +2394,19 @@ Home 3 CSS
 }
 
 .home-3-testimonial-area .testimonial-carousel .owl-dots button.active {
-    background: #ff6347;
+    background: #ce0e2d;
 }
 
 .home-3-testimonial-area .testimonial-carousel .owl-dots button {
-    background: #ff634773;
+    background: #ce0e2d73;
 }
 
 .footer-area.home-3-footer-area {
-    background: #1c233d;
+    background: #919191;
 }
 
 .home-3-footer-area .footer-mainmenu li:hover>a {
-    color: #ff6347;
+    color: #ce0e2d;
 }
 
 .footer-area.home-3-footer-area .social-link a:hover {
@@ -2423,7 +2426,7 @@ Home 3 CSS
 }
 
 .home-3 .footer-mainmenu ul li a:hover {
-    color: #ff6347;
+    color: #ce0e2d;
 }
 
 
@@ -2777,7 +2780,7 @@ Home 4
 }
 
 .home-4-footer-area {
-    background: #182044;
+    background: #919191;
     padding: 80px 0 25px;
     background-image: url(../image/footer-4-bg.png);
     background-position: 10% 50%;

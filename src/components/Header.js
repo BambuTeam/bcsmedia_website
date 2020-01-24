@@ -20,7 +20,7 @@ export class Header extends Component {
               <div className="col-md-10 col-sm-6 w-50">
                 <button id="menu-button">Menu</button>
                 <div className="header-signup xs-hidden sm-hidden">
-                  <a href="#" className="border-boxed-btn">
+                  <a href="http://system.bcs-media.com/login" className="border-boxed-btn">
                     Sign Up
                   </a>
                 </div>

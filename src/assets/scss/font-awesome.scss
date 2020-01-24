@@ -8262,3 +8262,29 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Pro";
   font-weight: 900;
 }
+
+@font-face {
+  font-family: "Font BCS";
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("../webfonts/ITCAvantGardeStd/ITCAvantGardeGothicLTBold.eot");
+  src: url("../webfonts/ITCAvantGardeStd/ITCAvantGardeStd-Bold.otf") format("embedded-opentype"),
+    url("../webfonts/ITCAvantGardeStd/ITCAvantGardeGothicLTBold.woff2") format("woff2"),
+    url("../webfonts/ITCAvantGardeStd/ITCAvantGardeGothicLTBold.woff") format("woff"),
+    url("../webfonts/ITCAvantGardeStd/ITCAvantGardeGothicLTBold.ttf") format("truetype"),
+    url("../webfonts/ITCAvantGardeStd/ITCAvantGardeGothicLTBold.svg") format("svg");
+  }
+
+  @font-face {
+  font-family: "Font Book";
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("../webfonts/ITCAvantGardeStd/Avant.eot");
+  src: url("../webfonts/ITCAvantGardeStd/Avant.otf") format("embedded-opentype"),
+    url("../webfonts/ITCAvantGardeStd/Avant.woff2") format("woff2"),
+    url("../webfonts/ITCAvantGardeStd/Avant.woff") format("woff"),
+    url("../webfonts/ITCAvantGardeStd/Avant.ttf") format("truetype"),
+    url("../webfonts/ITCAvantGardeStd/Avant.svg") format("svg");
+  }

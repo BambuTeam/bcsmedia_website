@@ -2184,6 +2184,7 @@ Home 3 CSS
 .service-3-bgi:after {
     position: absolute;
     left: 0;
+
     top: 0;
     width: 50%;
     height: 100%;
@@ -2198,7 +2199,7 @@ Home 3 CSS
 
 .service-3-bg {
     background-color: #ffffff;
-    box-shadow: 0 20px 50px 0 rgba(85, 92, 121, 0.04);
+    box-shadow: 0 20px 50px 0 #ff3d5d !important;
     max-width: 1200px;
     padding: 80px 50px 50px;
 }
@@ -2238,10 +2239,10 @@ Home 3 CSS
 }
 
 .subscribe-form.home-3-subscribe-form button {
-    background: #FF6347;
-    box-shadow: 0 5px 15px #ff634794;
+    background: #ce0e2d;
+    box-shadow: 0 5px 15px #ce0e2d;
     padding: 15px 50px;
-    border: #FF6347 solid 1px;
+    border: #ce0e2d solid 1px;
 }
 
 .home-3-contact-area form p input[type="text"]:focus,
@@ -2249,7 +2250,7 @@ Home 3 CSS
 .home-3-contact-area form p textarea:focus {
     color: #79879d;
     background-color: rgba(255, 99, 71, 0.14);
-    border-color: #ff6347;
+    border-color: #ce0e2d;
 }
 
 .subscribe-form.home-3-subscribe-form button:hover {
@@ -2284,10 +2285,13 @@ Home 3 CSS
 .home-3-tab-section .home-3-section-title .border-boxed-btn,
 .home-3-contact-area .contact-form form p button,
 .home-3-footer-area .subscribe-form button {
-    background: #FF6347;
-    margin-top: 30px;
-    border-color: #FF6347;
-    box-shadow: 0 5px 15px #ff634794;
+   
+    background: #ce0e2d;
+    box-shadow: 0 5px 15px #ce0e2d;
+    padding: 15px 50px;
+    border: #ce0e2d solid 1px;
+    border-radius: 10px;
+
 }
 
 .contact-form .home-3-section-title {

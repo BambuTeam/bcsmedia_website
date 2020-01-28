@@ -41,7 +41,7 @@ src: url("../webfonts/ITCAvantGardeStd/Avant.eot");
 src: url("../webfonts/ITCAvantGardeStd/Avant.otf") format("embedded-opentype"),
     url("../webfonts/ITCAvantGardeStd/Avant.woff2") format("woff2"),
     url("../webfonts/ITCAvantGardeStd/Avant.woff") format("woff"),
-    url("../webfonts/ITCAvantGardeStd/Avant.ttf") format("truetype"),
+    url("../webfonts/ITCAvantGardeStd/Avant.ttf") format("truetype"), 
     url("../webfonts/ITCAvantGardeStd/Avant.svg") format("svg");
 }
 
@@ -86,6 +86,10 @@ body {
     color: #000;
     font-family: "font-txt-plain";
     line-height: 1.9;
+}
+
+p{
+    font-family: font-txt-plain;
 }
 
 
@@ -2167,6 +2171,8 @@ Home 3 CSS
 }
 
 .is-sticky .home-3-header-area .border-boxed-btn {
+    font-family: bcs-primary-bold;
+    font-size: 17px;
     background: #ce0e2d;
     border: 1px solid #ce0e2d;
     color: #ffffff;

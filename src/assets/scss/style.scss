@@ -33,8 +33,25 @@ Base CSS
     src: url("../webfonts/ITCAvantGardeStd/ITCAvantGardeStd-Bold.ttf");
 }
 
+@font-face {
+font-family: "font-txt-plain";
+font-style: normal;
+font-display: auto;
+src: url("../webfonts/ITCAvantGardeStd/Avant.eot");
+src: url("../webfonts/ITCAvantGardeStd/Avant.otf") format("embedded-opentype"),
+    url("../webfonts/ITCAvantGardeStd/Avant.woff2") format("woff2"),
+    url("../webfonts/ITCAvantGardeStd/Avant.woff") format("woff"),
+    url("../webfonts/ITCAvantGardeStd/Avant.ttf") format("truetype"),
+    url("../webfonts/ITCAvantGardeStd/Avant.svg") format("svg");
+}
+
 .font-primary {
     font-family: bcs-primary-bold;
+}
+.font-txt{
+    font-family: font-txt-plain;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 a:focus,
@@ -61,7 +78,7 @@ h5,
 h6 {
     margin: 0 0 15px;
     font-weight: 700;
-    color: #233d63;
+    color: #000;
 }
 
 body {
@@ -542,6 +559,7 @@ a.boxed-btn:hover,
 
 .single-service-item.home-3-single-service-item img {
     margin-bottom: 30px;
+    max-width: 120px;
 }
 
 
@@ -567,7 +585,7 @@ a.boxed-btn:hover,
     padding: 15px 20px;
     margin-bottom: 15px;
     font-size: 20px;
-    color: #233d63;
+    color: #000;
     font-weight: bold;
 }
 
@@ -582,6 +600,7 @@ a.boxed-btn:hover,
 
 .tab-content {
     position: relative;
+    padding: 20px;
 }
 
 .tab-text h2 {
@@ -639,7 +658,7 @@ a.boxed-btn:hover,
 
 .testimonial-content {
     font-size: 24px;
-    color: #373737;
+    color: #000;
     font-style: italic;
     margin-bottom: 40px;
 }
@@ -719,6 +738,7 @@ a.boxed-btn:hover,
 .team-img img:nth-child(1) {
     left: -300px;
     top: 0;
+    width: 150px;
 }
 
 .team-img img {
@@ -733,19 +753,19 @@ a.boxed-btn:hover,
 .team-img img:nth-child(3) {
     top: 40%;
     left: -200px;
-    width: 110px;
+    width: 150px;
 }
 
 .team-img img:nth-child(4) {
     top: 88%;
     left: -310px;
-    width: 80px;
+    width: 100px;
 }
 
 .team-img img:nth-child(5) {
     top: -15px;
     right: -200px;
-    width: 80px;
+    width: 180px;
 }
 
 .team-img img:nth-child(6) {
@@ -849,7 +869,7 @@ a.boxed-btn:hover,
 .contact-form form p label {
     display: block;
     font-size: 16px;
-    color: #233d63;
+    color: #000;
     font-weight: 600;
 }
 
@@ -929,7 +949,7 @@ a.boxed-btn:hover,
 }
 
 .social-link a {
-    color: #233d63;
+    color: #000;
     margin-left: 24px;
     font-size: 15px;
 }
@@ -1614,7 +1634,7 @@ About page area CSS
     height: 40px;
     line-height: 40px;
     display: inline-block;
-    color: #233d63;
+    color: #000;
 }
 
 .social-links a:hover {
@@ -1733,7 +1753,7 @@ Blog area CSS
 
 .single-blog-box h4 a {
     line-height: 1.5;
-    color: #233d63;
+    color: #000;
 }
 
 .normal-btn {
@@ -1980,7 +2000,7 @@ a.border-boxed-btn.m-35 {
 
 .single-post-tag {
     margin: 40px 0;
-    color: #233d63;
+    color: #000;
 }
 
 .single-post-tag .social-share a {
@@ -1988,8 +2008,8 @@ a.border-boxed-btn.m-35 {
     display: inline-block;
     height: 45px;
     line-height: 45px;
-    border: #233d63 solid 1px;
-    color: #233d63;
+    border: #000 solid 1px;
+    color: #000;
     margin: 0 2px;
 }
 
@@ -2109,7 +2129,7 @@ a.border-boxed-btn.m-35 {
 .contact-form-area label {
     font-size: 20px;
     margin-bottom: 12px;
-    color: #233d63;
+    color: #000;
 }
 
 .post-a-comment-area p {
@@ -2218,7 +2238,7 @@ Home 3 CSS
 }
 
 .home-3-section-title {
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 
 .hero-area.home-3-hero-bg {
@@ -2263,7 +2283,9 @@ Home 3 CSS
 }
 
 .testimonial-area.home-3-testimonial-area {
-    background: #fff6f4;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 .single-service-item.home-3-single-service-item {
@@ -2355,7 +2377,7 @@ Home 3 CSS
 
 .home-3-tab-list li a {
     padding: 20px 0;
-    color: #233d63;
+    color: #000;
 }
 
 .home-3-tab-list ul {
@@ -2447,7 +2469,7 @@ Home 4
 }
 
 .home-2-header-area.header-area-4 .mainmenu li a {
-    color: #233d63;
+    color: #000;
 }
 
 .header-area-4 .mainmenu li:hover>a,
@@ -2745,7 +2767,7 @@ Home 4
 .single-counter-box p span,
 .single-counter-box p {
     font-size: 40px;
-    color: #233d63;
+    color: #000;
     font-weight: 700;
 }
 
@@ -3438,7 +3460,7 @@ Home 6 CSS
 .blog-6-content h4 a {
     font-size: 24px;
     line-height: 1.7;
-    color: #233d63;
+    color: #000;
 }
 
 .subscribe-form-6 button:hover {
@@ -4157,7 +4179,7 @@ img.dot-img-2 {
 
 .pricing-7-content ul li a.nav-link {
     font-size: 18px;
-    color: #233d63;
+    color: #000;
     font-weight: bold;
 }
 
@@ -4256,7 +4278,7 @@ img.dot_b_4 {
 }
 
 .footer-area-7 h4 {
-    color: #233d63;
+    color: #000;
 }
 
 .footer-area-7 .social-link.home-6 a:hover {

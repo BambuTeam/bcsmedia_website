@@ -22,10 +22,7 @@ export class Services extends Component {
                   <h2 className="text-title">
                     <a className="text-book">Nuestros</a> <strong>Valores</strong>
                   </h2>
-                  <p>
-                    Marketers usually focus their efforts responsible for making
-                    the purchase.
-                </p>
+
                 </div>
               </div>
             </div>

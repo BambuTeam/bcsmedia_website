@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
 import screen from "../assets/image/home/screen.png";
+import system from "../assets/image/bcs-media/system.svg"
+import logosystem from "../assets/image/bcs-media/systembcs.svg"
 
 import homeTab from "../assets/image/bcs-media/home-3-tab.png";
 
@@ -16,13 +18,10 @@ export class SectionTab extends Component {
                 data-wow-delay="0.2s"
                 data-wow-duration="1s"
               >
-                <h2>
-                  We determined that you're our <strong>target audience</strong>
-                </h2>
-                <p>
-                  Marketers usually focus their efforts responsible for making
-                  the purchase.
-                </p>
+                <h3>
+                  <strong>En cada proyecto han sido algunos de los valores con los que definimos nuestros años de trayectoria.</strong>
+                </h3>
+
               </div>
             </div>
           </div>
@@ -45,7 +44,7 @@ export class SectionTab extends Component {
                       aria-controls="home"
                       aria-selected="true"
                     >
-                      <b>bcs-meida</b> system
+                      <b>Pantallas digitales</b>
                     </a>
                   </li>
                   <li className="nav-item">
@@ -58,7 +57,7 @@ export class SectionTab extends Component {
                       aria-controls="profile"
                       aria-selected="false"
                     >
-                      bcs-media <b>web</b>
+                      <b>Especificaciones</b>
                     </a>
                   </li>
                   <li className="nav-item">
@@ -71,23 +70,22 @@ export class SectionTab extends Component {
                       aria-controls="contact"
                       aria-selected="false"
                     >
-                      3. Digital Marketing
+                      <b>Bcs-media</b> system
                     </a>
                   </li>
                 </ul>
               </div>
 
               <div className="tab-content" id="myTabContent">
-                <div
-                  className="tab-pane fade show active"
+                <div className="tab-pane fade show active"
                   id="home"
                   role="tabpanel"
-                  aria-labelledby="home-tab"
-                >
+                  aria-labelledby="home-tab">
                   <div className="row">
                     <div className="col-lg-8 d-flex align-items-center">
                       <div className="home-3-section-title">
                         <h2>Pantallas digitales</h2>
+                        <br></br>
                         <p>
                           Independientemente de la cantidad de pantallas digtales que necesites manejar,
                           ahora todo es más fácil de administrar a través de las capacidades optimizadas
@@ -99,9 +97,7 @@ export class SectionTab extends Component {
                           Básicamente nos permite involucrar a los clientes de manera más rápida
                           y con menos esfuerzo.
                         </p>
-                        <a href="" className="white border-boxed-btn">
-                          Get Estimated Price
-                        </a>
+
                       </div>
                     </div>
                     <div className="col-lg-4">
@@ -115,28 +111,35 @@ export class SectionTab extends Component {
                   className="tab-pane fade"
                   id="profile"
                   role="tabpanel"
-                  aria-labelledby="profile-tab"
-                >
+                  aria-labelledby="profile-tab">
                   <div className="row">
                     <div className="col-lg-6">
                       <div className="home-3-section-title">
                         <h2>
-                          We turn your idea in <strong>mobile apps.</strong>
+                          Video <strong>Especificaciones</strong>
                         </h2>
+                        <br></br>
                         <p>
-                          If you are looking for great ways to decorate your
-                          home or office, then you know as well as I do that you
-                          have nearly countless options. There are so many ways
-                          to decorate.
+                          <p>Formatos: <strong>.mp4, .avi, .mkv, .mpg</strong> </p>
+                          <p>Resolución: <strong>1920x1080 o 1080x1920 px</strong></p>
+                          <p>Duración: <strong>10 segundos</strong></p>
+                          <p>Peso máximo: <strong>15 Mb</strong></p>
                         </p>
-                        <a href="" className="white border-boxed-btn">
-                          Get Estimated Price
-                        </a>
+                        <h2>
+                          <strong>Imágenes</strong>
+                        </h2>
+                        <br></br>
+                        <p>
+                          <p>Formatos: <strong>.png, jpg, .jpeg</strong> </p>
+                          <p>Resolución: <strong>1920x1080 o 1080x1920 px</strong></p>
+                          <p>Peso máximo: <strong> 5 Mb</strong></p>
+                        </p>
+
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 animated zoomInUp delay-1s">
                       <div className="home-3-tab-img">
-                        <img src={homeTab} alt="" />
+                        <img src={logosystem} alt="" />
                       </div>
                     </div>
                   </div>
@@ -151,22 +154,18 @@ export class SectionTab extends Component {
                     <div className="col-lg-6">
                       <div className="home-3-section-title">
                         <h2>
-                          We turn your idea in <strong>mobile apps.</strong>
+                          bcs-<strong>media web</strong>
                         </h2>
                         <p>
-                          If you are looking for great ways to decorate your
-                          home or office, then you know as well as I do that you
-                          have nearly countless options. There are so many ways
-                          to decorate.
+                          Sistema avanzado, creado para facilitar la gestión de pautas
+                      y llevar un control organizado y esquemático de los clientes.
                         </p>
-                        <a href="" className="white border-boxed-btn">
-                          Get Estimated Price
-                        </a>
+
                       </div>
                     </div>
                     <div className="col-lg-6">
                       <div className="home-3-tab-img">
-                        <img src={homeTab} alt="" />
+                        <img src={system} alt="" />
                       </div>
                     </div>
                   </div>
@@ -175,7 +174,7 @@ export class SectionTab extends Component {
             </div>
           </div>
         </div>
-      </div>
+      </div >
     );
   }
 }

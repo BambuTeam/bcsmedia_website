@@ -61,7 +61,7 @@ h5,
 h6 {
     margin: 0 0 15px;
     font-weight: 700;
-    color: #233d63;
+    color: #000;
 }
 
 body {
@@ -540,6 +540,7 @@ a.boxed-btn:hover,
 
 .single-service-item.home-3-single-service-item img {
     margin-bottom: 30px;
+    max-width: 136px;
 }
 
 
@@ -637,7 +638,7 @@ a.boxed-btn:hover,
 
 .testimonial-content {
     font-size: 24px;
-    color: #373737;
+    color: #fff;
     font-style: italic;
     margin-bottom: 40px;
 }
@@ -2219,7 +2220,7 @@ Home 3 CSS
 }
 
 .home-3-section-title {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .hero-area.home-3-hero-bg {
@@ -2262,7 +2263,7 @@ Home 3 CSS
 }
 
 .testimonial-area.home-3-testimonial-area {
-    background: #FFF6F4;
+    background-image: url(../image/bcs-media/service-4-bg.svg);
 }
 
 .single-service-item.home-3-single-service-item {

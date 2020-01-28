@@ -12,7 +12,7 @@ export class ClientLogos extends Component {
                 data-wow-delay="0.2s"
                 data-wow-duration="1s"
               >
-                Trusted by hundreds of the world's best organizations
+
               </h6>
               <div className="owl-carousel client-logo-carousel">
                 <div className="single-client-item">

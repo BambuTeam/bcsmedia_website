@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import ClientLogos from './components/ClientLogos';
+
 import Services from './components/Services';
 import SectionTab from './components/SectionTab';
 import Testimonials from './components/Testimonials';
@@ -18,7 +18,7 @@ function App() {
 
       <Hero />
 
-      <ClientLogos />
+
 
       <Services />
 

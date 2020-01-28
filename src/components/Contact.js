@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import bcsmediaicon from "../assets/image/home/bk-transparent.png"
-import bcsbk from "../assets/image/home/bk-contact.png"
+import bcsbk from "../assets/image/bcs-media/contact-bk.svg"
 
 export class Contact extends Component {
     render() {
@@ -20,7 +20,8 @@ export class Contact extends Component {
                             <div className="contact-form" >
                                 <div className="home-3-section-title" >
                                     <h2>
-                                        Need a help ? Don’ t worry just <strong> contact us. </strong>
+                                        <strong className="font-primary"> Contacto </strong>
+                                        <p className="font-txt">¡TRABAJEMOS JUNTOS! <br></br>CONTÁCTANOS </p>
                                     </h2>
                                 </div>
                                 <form id="contactForm" data-toggle="validator" className="shake" >
@@ -28,12 +29,12 @@ export class Contact extends Component {
                                         <label> Name * </label>
                                         <input type="text"
                                             id="name"
-                                            placeholder="Gary Roberson*" />
+                                            placeholder="Nombre Completo*" />
                                     </p>
                                     <p>
                                         <label> Email * </label> <input type="email"
                                             id="email"
-                                            placeholder="noah_cremin@yahoo.com" />
+                                            placeholder="contacto@dominio.com*" />
                                     </p> <p >
                                         <label > Messages * </label> <textarea name="name"
                                             id="message"
@@ -42,8 +43,8 @@ export class Contact extends Component {
                                             placeholder="Messages" >
                                         </textarea> <button type="submit"
                                             id="submit"
-                                            className="boxed-btn">
-                                            Get Estimated Price </button>
+                                            className="boxed-btn font-txt">
+                                            ENVIAR </button>
                                     </p>
                                 </form>
                             </div>

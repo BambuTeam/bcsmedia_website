@@ -1,6 +1,18 @@
 import React, { Component } from "react";
 
-import img_quote from "../assets/image/bcs-media/home-3-quote.png";
+import img_quote from "../assets/image/bcs-media/quote.png";
+import circle1 from "../assets/image/bcs-media/circle1.svg";
+import circle2 from "../assets/image/bcs-media/circle2.svg";
+import circle3 from "../assets/image/bcs-media/circle3.svg";
+import circle4 from "../assets/image/bcs-media/circle4.svg";
+import circle5 from "../assets/image/bcs-media/circle5.svg";
+
+
+
+
+
+
+
 
 export class Testimonials extends Component {
   render() {
@@ -85,13 +97,13 @@ export class Testimonials extends Component {
               </div>
 
               <div className="team-img">
-                <img src="assets/image/team-1.jpg" alt="" />
+                <img src={circle1} alt="" />
                 <img src="assets/image/team-2.jpg" alt="" />
-                <img src="assets/image/team-3.jpg" alt="" />
-                <img src="assets/image/team-4.jpg" alt="" />
-                <img src="assets/image/team-5.jpg" alt="" />
+                <img src={circle5} alt="" />
+                <img src={circle3} alt="" />
+                <img src={circle2} alt="" />
                 <img src="assets/image/team-6.jpg" alt="" />
-                <img src="assets/image/team-7.jpg" alt="" />
+                <img src={circle4} alt="" />
                 <img src="assets/image/team-8.jpg" alt="" />
               </div>
             </div>

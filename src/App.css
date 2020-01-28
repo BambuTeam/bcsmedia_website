@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.txt-book{
+  font-family: "Font Book";
+  font-family: 15px;
+
+}

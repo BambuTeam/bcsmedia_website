@@ -175,7 +175,7 @@ export class SectionTab extends Component {
                   aria-labelledby="contact-tab"
                 >
                   <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 d-flex align-items-center">
                       <div className="home-3-section-title">
                         <h2>
                           bcs-<strong>media web</strong>

@@ -35,6 +35,7 @@ export class Hero extends Component {
                       type="email"
                       placeholder="Email address"
                       id="mc-email"
+                      className="mr-lg-3"
                     />
                     <button type="submit">Get Quotes</button>
                   </form>

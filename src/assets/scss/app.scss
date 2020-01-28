@@ -35,6 +35,31 @@
   color: #000;
 }
 
+.home-3-header-area button#menu-button {
+  color: $primary-bcs;
+  border-color: $primary-bcs;
+}
+
+.home-3-header-area button#menu-button:hover {
+  color: $white;
+  background-color: $primary-bcs;
+  border-color: $primary-bcs;
+}
+
+.home-3-header-area button:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Hero Section */
+.home-3-subscribe-form {
+  font-family: "font-txt-plain" !important;
+}
+/* End Hero Section */
+
 /*
  * Footer Section
  */

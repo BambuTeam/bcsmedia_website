@@ -44,7 +44,8 @@ export class SectionTab extends Component {
                       aria-controls="home"
                       aria-selected="true"
                     >
-                      <b>Pantallas digitales</b>
+                      <div className=""><b>Pantallas digitales</b></div>
+
                     </a>
                   </li>
                   <li className="nav-item">
@@ -83,20 +84,23 @@ export class SectionTab extends Component {
                   aria-labelledby="home-tab">
                   <div className="row">
                     <div className="col-lg-8 d-flex align-items-center">
-                      <div className="home-3-section-title">
+                      <div className="text-title">
                         <h2>Pantallas digitales</h2>
                         <br></br>
-                        <p>
+                        <p className="txt-pdigitales">
                           Independientemente de la cantidad de pantallas digtales que necesites manejar,
                           ahora todo es más fácil de administrar a través de las capacidades optimizadas
                           y centralizadas de la solición basada en la red que reúne todo en un formato
                           simplificado, y ademásle brinda una administración de supervisión completa
-                          de sus implementaciones de contenido. <br></br>
+                          de sus implementaciones de contenido. </p>
+                        <p className="txt-pdigitales">
                           Además, mejora la creación, gestión y dinámica del contenido, que anteriormente
                           era complejo, y procesa todas esas funciones en una rutina. <br></br>
                           Básicamente nos permite involucrar a los clientes de manera más rápida
                           y con menos esfuerzo.
-                        </p>
+                          </p>
+
+
 
                       </div>
                     </div>

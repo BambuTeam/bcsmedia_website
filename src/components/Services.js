@@ -18,9 +18,9 @@ export class Services extends Component {
                 data-wow-duration="1s"
 
               >
-                <div className="text-title">
-                  <h2 className="text-title">
-                    <a className="text-book">Nuestros</a> <strong>Valores</strong>
+                <div>
+                  <h2>
+                    <a className="txt-book">Nuestros</a> <strong>Valores</strong>
                   </h2>
 
                 </div>

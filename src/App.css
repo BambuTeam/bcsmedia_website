@@ -42,3 +42,10 @@
   font-family: 15px;
 
 }
+
+body {
+    font-size: 16px;
+    color: #000;
+    font-family: "Font Book";
+    line-height: 1.9;
+}

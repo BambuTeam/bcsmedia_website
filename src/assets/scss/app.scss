@@ -2,10 +2,10 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 // Theme
-@import './main.scss';
+@import "./main.scss";
 
 /* Custom SCSS for website */
-@import './_variables.scss';
+@import "./_variables.scss";
 
 // Hero Section
 .hero-area.home-3-hero-bg {
@@ -20,18 +20,82 @@
   background-image: url("../image/bcs-media/service-3-bg.svg");
 }
 
-.img-section{
+.img-section {
   margin-left: -15px;
   margin-top: -80px;
-  
 }
 
-.text-title{
-  font-family: 'Font BCS' !important;
+.text-title {
+  font-family: "Font BCS" !important;
   color: #000;
 }
 
-.text-book{
-  font-family: 'Font Book' !important;
+.text-book {
+  font-family: "Font Book" !important;
   color: #000;
 }
+
+/*
+ * Footer Section
+ */
+.footer-area.home-3-footer-area {
+  background-color: $primary-bcs;
+
+  h2 {
+    font-family: "Font BCS" !important;
+  }
+
+  .subscribe-form input[type="email"] {
+    background-color: $primary-bcs-transparent;
+    border-color: $light;
+    color: $light;
+    font-family: "font-txt-plain" !important;
+  }
+
+  button {
+    background-color: $primary-bcs;
+    box-shadow: 0 5px 15px $primary-bcs-transparent;
+    font-family: "font-txt-plain" !important;
+  }
+
+  button:hover {
+    color: $primary-bcs;
+  }
+}
+
+.home-3 {
+  .footer-mainmenu {
+    ul {
+      li {
+        a {
+          font-family: "font-txt-plain" !important;
+        }
+
+        a:hover {
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+// Button
+#topcontrol i {
+  color: $primary-bcs;
+}
+
+#topcontrol:hover {
+  background-color: $primary-bcs;
+  border: 1px solid $white;
+
+  i {
+    color: $white;
+  }
+}
+
+.copyright-area {
+  font-family: "font-txt-plain" !important;
+}
+/*
+ * End Footer Section
+ */

@@ -1,18 +1,12 @@
 import React, { Component } from "react";
 
 import img_quote from "../assets/image/bcs-media/quote.png";
+
 import circle1 from "../assets/image/bcs-media/circle1.svg";
 import circle2 from "../assets/image/bcs-media/circle2.svg";
 import circle3 from "../assets/image/bcs-media/circle3.svg";
 import circle4 from "../assets/image/bcs-media/circle4.svg";
 import circle5 from "../assets/image/bcs-media/circle5.svg";
-
-
-
-
-
-
-
 
 export class Testimonials extends Component {
   render() {

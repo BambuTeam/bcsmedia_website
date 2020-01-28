@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 
-import hero from "../assets/image/home/sistema.png";
 import HomeAnimated from "../assets/image/bcs-media/animations/home/home"
 
 export class Hero extends Component {

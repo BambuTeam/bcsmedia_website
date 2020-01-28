@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 // Assets
-import logoBcsmedia from "../assets/image/bcs-media/logo_bcsmedia.png"
-import logosvg from "../assets/image/bcs-media/logo.svg"
+import logosvg from "../assets/image/bcs-media/logo.svg";
 
 export class Header extends Component {
   render() {
@@ -20,7 +19,10 @@ export class Header extends Component {
               <div className="col-md-10 col-sm-6 w-50">
                 <button id="menu-button">Menu</button>
                 <div className="header-signup xs-hidden sm-hidden">
-                  <a href="http://system.bcs-media.com/login" className="border-boxed-btn">
+                  <a
+                    href="http://system.bcs-media.com/login"
+                    className="border-boxed-btn"
+                  >
                     Sign Up
                   </a>
                 </div>

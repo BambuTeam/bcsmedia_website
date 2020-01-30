@@ -8,6 +8,7 @@ import SectionTab from "./components/SectionTab";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import About from "./pages/about";
 
 // import "./assets/css/main.css"
 import "./assets/scss/app.scss";
@@ -29,18 +30,6 @@ function Main() {
   );
 }
 
-function About() {
-  return (
-    <Fragment>
-      {/* <Header /> */}
-      <div>
-        <h1>Hello</h1>
-      </div>
-      {/* <Footer /> */}
-    </Fragment>
-  )
-}
-
 function App() {
   return (
     <BrowserRouter>
@@ -55,7 +44,7 @@ function App() {
         </div>
       </Switch>
     </BrowserRouter>
-  )
+  );
 }
 
 export default App;

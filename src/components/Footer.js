@@ -31,6 +31,7 @@ export class Footer extends Component {
                     >
                       <form id="mc-form-footer">
                         <input
+                          className="mr-md-3"
                           type="email"
                           placeholder="Email Address"
                           id="mc-email-footer"

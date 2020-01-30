@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import HomeAnimated from "../assets/image/bcs-media/animations/home/home"
+import HomeAnimated from "../assets/image/bcs-media/animations/home/home";
 
 export class Hero extends Component {
   render() {
@@ -19,7 +19,8 @@ export class Hero extends Component {
                   data-wow-delay="0.5s"
                   data-wow-duration="1s"
                 >
-                  <strong className="font-primary color-primary">bcs</strong>-media
+                  <strong className="font-primary color-primary">bcs</strong>
+                  -media
                 </h1>
                 <p className="wow fadeInUp" data-wow-delay="0.3s">
                   Like any great agency we are only as good as the results we
@@ -35,7 +36,7 @@ export class Hero extends Component {
                       type="email"
                       placeholder="Email address"
                       id="mc-email"
-                      className="mr-lg-3"
+                      className="mr-md-3"
                     />
                     <button type="submit">Get Quotes</button>
                   </form>

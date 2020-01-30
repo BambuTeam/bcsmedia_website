@@ -87,9 +87,9 @@ body {
   line-height: 1.9;
 }
 
-p {
+/* p {
   font-family: font-txt-plain;
-}
+} */
 
 /*=== Overflow Hidden ===*/
 
@@ -372,11 +372,11 @@ a.border-boxed-btn {
 }
 
 .subscribe-form input[type="email"] {
-    width: 55%;
-    padding: 15px;
-    border: none;
-    /* margin-right: 10px; */
-    border: #ffbc48 solid 1px;
+  width: 55%;
+  padding: 15px;
+  border: none;
+  /* margin-right: 10px; */
+  border: #ffbc48 solid 1px;
 }
 
 .subscribe-form button,
@@ -544,9 +544,9 @@ a.boxed-btn:hover,
 
 .single-service-item:hover,
 .single-service-item.active {
-    cursor: pointer;
-    box-shadow: 0px 05px 10px 0px #bfbfbf;
-    border: 10px solid #000;
+  cursor: pointer;
+  box-shadow: 0px 05px 10px 0px #bfbfbf;
+  border: 10px solid #000;
 }
 
 .single-service-item.home-3-single-service-item img {
@@ -2196,10 +2196,10 @@ Home 3 CSS
 }
 
 .service-3-bg {
-    background-color: #fff;
-    box-shadow: 0 7px 11px 2px #bfbfbf;
-    max-width: 1200px;
-    padding: 80px 50px 50px;
+  background-color: #fff;
+  box-shadow: 0 7px 11px 2px #bfbfbf;
+  max-width: 1200px;
+  padding: 80px 50px 50px;
 }
 
 .home-3-single-service-item .icon-img-table {

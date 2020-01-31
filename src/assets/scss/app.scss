@@ -171,7 +171,7 @@ p {
 .nav-tabs .nav-link.active {
   box-shadow: 0 0 5px #ce0e2d;
   background-color: #ce0e2d;
-  color: #fff;
+  color: #000;
   border-radius: 15px;
 }
 
@@ -182,4 +182,21 @@ p {
 
 .read-more-btn:hover {
   color: #000;
+}
+
+.start-section {
+  height: 0px;
+  background-color: transparent;
+}
+
+/* Services */
+
+.asset-bg {
+  background-image: url(../image/bcs-media/bk-services.svg);
+  height: 250vh;
+  width: 100vw;
+}
+
+.asset-area-2 {
+  position: relative;
 }

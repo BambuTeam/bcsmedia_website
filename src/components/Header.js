@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 // Assets
 import logosvg from "../assets/image/bcs-media/logo.svg";
 
@@ -40,7 +40,7 @@ export class Header extends Component {
                       </Link>
                     </li>
                     <li>
-                      <a className="nav-link" href="#services">
+                      <a className="nav-link" href="/services">
                         Services
                       </a>
                     </li>

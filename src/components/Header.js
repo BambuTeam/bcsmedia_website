@@ -45,8 +45,8 @@ export class Header extends Component {
                       </a>
                     </li>
                     <li>
-                      <a className="nav-link" href="#testimonial">
-                        Testimonials
+                      <a className="nav-link" href="/media">
+                        Clientes
                       </a>
                     </li>
                     <li>

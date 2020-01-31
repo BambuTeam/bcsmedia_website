@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import img1 from "../assets/image/bcs-media/medios-d.png";
 import img2 from "../assets/image/bcs-media/pc-d.png";
+import img3 from "../assets/image/bcs-media/clock.png";
 
 export default class ServicesPage extends Component {
   render() {
@@ -47,7 +48,7 @@ export default class ServicesPage extends Component {
                       Look at it, but if you have successfully reached your
                       target market, the payoffs will be worth it.
                     </p>
-                    <a href className="home-4-border-btn white">
+                    <a href className="border-boxed-btn">
                       Get your Estimate <i className="far fa-angle-right" />
                     </a>
                   </div>
@@ -85,17 +86,23 @@ export default class ServicesPage extends Component {
                     <div className="home-4-icon">
                       <i className="fas fa-play" />
                     </div>
-                    <h2>The Key To Your Motivation And Success</h2>
+                    <h2>Diseño y animación</h2>
                     <p>
-                      Successful businesses have many things in common, today
-                      we’ll look at the big ‘R’of recognition and how a digital
-                      advertising network may help.
+                      Fuera de los servicios que ofrece nuestra sede central
+                      batrescs.com los cuales abarcan diseño gráfico, desarrollo
+                      de sitios web, aplicaciones móviles, impresión y otros
+                      servicios, en BCS Media nos centramos en diseño gráfico y
+                      animación para enfocarnos en que los anuncios de nuestros
+                      clientes sean creativos e innovadores lo cual pueda crear
+                      una mejor interacción con el consumidor y de esta manera
+                      desarrollar un mejor retorno en la inversión de nuestros
+                      clientes.
                     </p>
                     <p>
-                      Look at it, but if you have successfully reached your
-                      target market, the payoffs will be worth it.
+                      Pautas en pantallas digitales Diseño gráfico Animación 3D
+                      Animación 2D
                     </p>
-                    <a href className="home-4-border-btn white">
+                    <a href className="border-boxed-btn">
                       Get your Estimate <i className="far fa-angle-right" />
                     </a>
                     <div className="asset-abt-img">
@@ -117,19 +124,15 @@ export default class ServicesPage extends Component {
                 <div className="col-md-6 col-lg-5 wow fadeInLeft">
                   <div className="home-2-section-title">
                     <div className="home-4-icon">
-                      <i className="fas fa-play" />
+                      <i className="far fa-clock" />
                     </div>
-                    <h2>The Key To Your Motivation And Success 2</h2>
+                    <h2>Tiempos de pautas</h2>
                     <p>
-                      Successful businesses have many things in common, today
-                      we’ll look at the big ‘R’of recognition and how a digital
-                      advertising network may help.
+                      10 segundos por Spot. 24 Spot por hora. Spot cada 2:50
+                      minutos. Máximo 15 clientes en cada pantalla.
                     </p>
-                    <p>
-                      Look at it, but if you have successfully reached your
-                      target market, the payoffs will be worth it.
-                    </p>
-                    <a href className="home-4-border-btn white">
+
+                    <a href className="border-boxed-btn">
                       Get your Estimate <i className="far fa-angle-right" />
                     </a>
                     <div className="asset-abt-img">
@@ -144,7 +147,7 @@ export default class ServicesPage extends Component {
                   data-wow-duration="1s"
                 >
                   <div className="asset-img-1">
-                    <img src={img1} />
+                    <img src={img3} />
                   </div>
                 </div>
               </div>

@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import About from "./pages/about";
 import CustomersPage from "./pages/CustomersPage";
+import ServicesPage from "./pages/ServicesPage";
 
 // import "./assets/css/main.css"
 import "./assets/scss/app.scss";
@@ -40,6 +41,7 @@ function App() {
 
           <Route exact path="/" component={Main} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/services" component={ServicesPage} />
 
           <Route exact path="/media" component={CustomersPage} />
 

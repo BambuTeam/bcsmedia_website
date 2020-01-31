@@ -171,7 +171,7 @@ p {
 .nav-tabs .nav-link.active {
   box-shadow: 0 0 5px #ce0e2d;
   background-color: #ce0e2d;
-  color: #fff;
+  color: #000;
   border-radius: 15px;
 }
 
@@ -188,4 +188,38 @@ p {
 .about-6-area.section-padding {
   padding-top: 200px;
   padding-bottom: 200px;
+}
+.start-section {
+  height: 0px;
+  background-color: transparent;
+}
+
+/* Services */
+
+.asset-bg {
+  background-image: url(../image/bcs-media/bk-services.svg);
+  height: 250vh;
+  width: 100vw;
+}
+
+.asset-area-2 {
+  position: relative;
+}
+
+/*Button*/
+.border-boxed-btn {
+  font-family: bcs-primary-bold;
+  font-size: 17px;
+  background: #ce0e2d;
+  border: 1px solid #ce0e2d;
+  color: #ffffff !important;
+}
+
+.border-boxed-btn:hover {
+  font-family: bcs-primary-bold;
+  font-size: 17px;
+  background: #fff;
+  border: 1px solid #ce0e2d;
+  color: #000 !important;
+  border-radius: 15px;
 }

@@ -86,7 +86,7 @@ export default class ServicesPage extends Component {
                     <div className="home-4-icon">
                       <i className="fas fa-play" />
                     </div>
-                    <h2>Diseño y animación</h2>
+                    <h2 className="font-primary">Diseño y animación</h2>
                     <p>
                       Fuera de los servicios que ofrece nuestra sede central
                       batrescs.com los cuales abarcan diseño gráfico, desarrollo
@@ -105,9 +105,6 @@ export default class ServicesPage extends Component {
                     <a href className="border-boxed-btn">
                       Get your Estimate <i className="far fa-angle-right" />
                     </a>
-                    <div className="asset-abt-img">
-                      <img src="assets/image/asset-abt-img.png" alt />
-                    </div>
                   </div>
                 </div>
               </div>
@@ -126,7 +123,7 @@ export default class ServicesPage extends Component {
                     <div className="home-4-icon">
                       <i className="far fa-clock" />
                     </div>
-                    <h2>Tiempos de pautas</h2>
+                    <h2 className="font-primary">Tiempos de pautas</h2>
                     <p>
                       10 segundos por Spot. 24 Spot por hora. Spot cada 2:50
                       minutos. Máximo 15 clientes en cada pantalla.
@@ -135,9 +132,6 @@ export default class ServicesPage extends Component {
                     <a href className="border-boxed-btn">
                       Get your Estimate <i className="far fa-angle-right" />
                     </a>
-                    <div className="asset-abt-img">
-                      <img src="assets/image/asset-abt-img.png" alt />
-                    </div>
                   </div>
                 </div>
 

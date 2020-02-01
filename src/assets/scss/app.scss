@@ -206,7 +206,7 @@ p {
   position: relative;
 }
 
-/*Button*/
+/*Button Services*/
 .border-boxed-btn {
   font-family: bcs-primary-bold;
   font-size: 17px;
@@ -222,4 +222,18 @@ p {
   border: 1px solid #ce0e2d;
   color: #000 !important;
   border-radius: 15px;
+}
+
+/*ICONOS*/
+
+.home-4-icon i {
+  idth: 80px;
+  height: 80px;
+  line-height: 80px;
+  box-shadow: 0 5px 15px #e0dcdc;
+  color: #ce0e2d;
+}
+
+.home-4-icon i:hover {
+  background: #ce0e2d !important;
 }

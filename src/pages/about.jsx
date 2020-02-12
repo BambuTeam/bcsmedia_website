@@ -43,7 +43,7 @@ export default class About extends Component {
                     data-wow-duration="1s"
                   >
                     <a
-                      className="nav-link active"
+                      className="nav-link active-1"
                       id="home-tab"
                       data-toggle="tab"
                       href="#tab-section-1"

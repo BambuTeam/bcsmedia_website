@@ -2131,11 +2131,11 @@ a.border-boxed-btn.m-35 {
 
 /*==========
 Home 3 CSS
-==========*/
-
+==========*/ /* 
+ NAVBAR FONT COLOR */
 .home-3-header-area .mainmenu li:hover > a,
 .home-3-header-area .mainmenu li > a.active {
-  color: #ce0e2d !important;
+  color: #000 !important;
 }
 
 .header-area-1.home-3-header-area .mainmenu li ul li:hover > a {
@@ -2170,6 +2170,7 @@ Home 3 CSS
 .home-3-header-area .mainmenu li:hover > a:after,
 .home-3-header-area .mainmenu li > a.active:after {
   background-color: #ce0e2d;
+  width: 0%;
 }
 
 .home-3-header-area .mainmenu li ul li:hover a {
@@ -2227,9 +2228,9 @@ Home 3 CSS
   background-repeat: no-repeat;
 }
 
-.hero-area.home-3-hero-bg {
+/* .hero-area.home-3-hero-bg {
   padding: 200px 0 120px;
-}
+} */
 
 .home-3-hore-img {
   margin-right: calc((-70vw + 100%) / 2);
@@ -2390,10 +2391,10 @@ Home 3 CSS
   position: absolute;
   left: 0;
   bottom: 1px;
-  width: 100%;
-  height: 3px;
+  width: 80%;
+  height: 80%;
   content: "";
-  background: #ce0e2d;
+  background: #fff;
 }
 
 .home-3-testimonial-area .testimonial-carousel .owl-dots button.active {
@@ -4359,7 +4360,7 @@ a.boxed-btn:hover,
 .home-3-contact-area form p button.boxed-btn:hover,
 .home-3-footer-area .subscribe-form button:hover,
 .subscribe-form.home-3-subscribe-form button:hover,
-.home-3-header-area .border-boxed-btn,
+/* .home-3-header-area .border-boxed-btn */
 .home-4-border-btn:hover,
 .home-2-header-area a.border-boxed-btn,
 .home-4-contact-area button.boxed-btn:hover,

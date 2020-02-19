@@ -14,6 +14,7 @@ import ServicesPage from "./pages/ServicesPage";
 
 // import "./assets/css/main.css"
 import "./assets/scss/app.scss";
+import { Servicesnew } from "./components/Service-2";
 
 function Main() {
   return (
@@ -21,11 +22,12 @@ function Main() {
       {/* <Header /> */}
 
       <Hero />
+      <Servicesnew />
 
-      <Services />
+      {/* <Services /> */}
 
       <SectionTab />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       {/* <Footer /> */}
     </Fragment>

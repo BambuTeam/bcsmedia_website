@@ -7,24 +7,27 @@ import logosystem from "../assets/image/bcs-media/systembcs.svg";
 export class SectionTab extends Component {
   render() {
     return (
-      <div className="home-3-tab-section padding-bottom" id="services">
+      <div className=" padding-bottom" id="services">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-7 text-center">
+            <div className="col-lg-12 text-center">
               <div
                 className="home-3-section-title wow fadeInUp"
                 data-wow-delay="0.2s"
                 data-wow-duration="1s"
               >
-                <h3>
+                <h3 className="txt-title-section">
                   <strong>
-                    En cada proyecto han sido algunos de los valores con los que
-                    definimos nuestros años de trayectoria.
+                    En cada proyecto han sido algunos de los valores <br></br>{" "}
+                    con los que definimos nuestros años de trayectoria.
                   </strong>
+                  <div className="line"></div>
+                  <div className="new2"></div>
                 </h3>
               </div>
             </div>
           </div>
+          <br></br>
 
           <div className="row">
             <div className="col-lg-12">
@@ -36,7 +39,7 @@ export class SectionTab extends Component {
                 <ul className="nav nav-tabs" id="myTab" role="tablist">
                   <li className="nav-item">
                     <a
-                      className="nav-link active"
+                      className="nav-link "
                       id="home-tab"
                       data-toggle="tab"
                       href="#home"
@@ -44,7 +47,7 @@ export class SectionTab extends Component {
                       aria-controls="home"
                       aria-selected="true"
                     >
-                      <div className="">
+                      <div className="tab-service">
                         <b>Pantallas digitales</b>
                       </div>
                     </a>

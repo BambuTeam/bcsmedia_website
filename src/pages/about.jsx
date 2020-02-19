@@ -35,7 +35,7 @@ export default class About extends Component {
           </div>
           <div className="row">
             <div className="col-lg-4 col-sm-12">
-              <div className=" tab-section">
+              <div className=" tab-section tab-color">
                 <ul className="nav nav-tabs" id="myTab" role="tablist">
                   <li
                     className="nav-item wow fadeInUp"

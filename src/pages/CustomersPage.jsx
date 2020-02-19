@@ -36,7 +36,7 @@ export default class MediaPage extends Component {
                     <div className="single-counter-box">
                       <i className="far fa-user-friends"></i>
                       <p className="counter-number txt-book-plain">
-                        <span>500</span> nids
+                        <span>500</span> nits
                       </p>
                       <h5>Project Completed</h5>
                     </div>

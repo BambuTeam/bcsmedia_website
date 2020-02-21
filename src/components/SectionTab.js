@@ -7,7 +7,7 @@ import logosystem from "../assets/image/bcs-media/systembcs.svg";
 export class SectionTab extends Component {
   render() {
     return (
-      <div className=" padding-bottom" id="services">
+      <div id="services">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-12 text-center">

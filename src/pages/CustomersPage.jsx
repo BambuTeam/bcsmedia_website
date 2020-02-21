@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import headfcv from "../assets/image/bcs-media/headerfcv.png";
 
 export default class MediaPage extends Component {
   render() {
@@ -25,7 +26,9 @@ export default class MediaPage extends Component {
                     el interior de las farmacias cruz verde, esto hará que cada
                     farmacia tenga una imagen más innovadora y moderna.{" "}
                   </p>
+                  <br></br>
                 </div>
+                <h2 className="font-primary">CARACTERISTICAS</h2>
 
                 <div className="row">
                   <div
@@ -34,7 +37,7 @@ export default class MediaPage extends Component {
                     data-wow-duration="1s"
                   >
                     <div className="single-counter-box">
-                      <i className="far fa-user-friends"></i>
+                      <i className="far fa-lightbulb"></i>
                       <p className="counter-number txt-book-plain">
                         <span>500</span> nits
                       </p>
@@ -48,10 +51,10 @@ export default class MediaPage extends Component {
                   >
                     <div className="single-counter-box">
                       <i className="far fa-clone"></i>
-                      <p className="counter-number txt-book-plain">
-                        <span>42.5</span>"
+                      <p className=" txt-book-plain">
+                        <span> 21.2 lb</span>
                       </p>
-                      <h5>Happy Clients</h5>
+                      <h5>Weight</h5>
                     </div>
                   </div>
                 </div>
@@ -62,7 +65,7 @@ export default class MediaPage extends Component {
                     data-wow-duration="1s"
                   >
                     <div className="single-counter-box">
-                      <i className="far fa-carrot"></i>
+                      <i className="fas fa-tv"></i>
                       <p>
                         <span>Resolución</span> HD
                       </p>
@@ -71,6 +74,7 @@ export default class MediaPage extends Component {
                   </div>
                 </div>
               </div>
+              <br></br>
             </div>
             <div
               className="col-lg-6 wow fadeInRight"
@@ -78,7 +82,28 @@ export default class MediaPage extends Component {
               data-wow-duration="1s"
             >
               <div className="about-6-img">
-                <img src="assets/image/about-6-img.png" alt="" />
+                {/*  <img src="assets/image/bcs-media/headerfcv.png" alt="" /> */}
+                <img
+                  src={headfcv}
+                  className="wow fadeInDown"
+                  data-wow-delay="0.2s"
+                  data-wow-duration="1s"
+                />
+              </div>
+            </div>
+            <div
+              className="col-sm-12 wow fadeInUp"
+              data-wow-delay="0.6s"
+              data-wow-duration="1s"
+            >
+              <div className="row">
+                <div className="container">
+                  <iframe
+                    src="https://www.google.com/maps/d/embed?mid=1WpMfU43KDNMzoXp_fppx8nbBfAmUeUr5"
+                    width="100%"
+                    height="480"
+                  ></iframe>
+                </div>
               </div>
             </div>
           </div>

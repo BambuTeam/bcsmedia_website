@@ -65,8 +65,8 @@ export default class MediaPage extends Component {
                     data-wow-delay="0.6s"
                     data-wow-duration="1s"
                   >
-                    <div className="single-counter-box">
-                      <i className="fas fa-tv"></i>
+                    <div className="single-counter-box ">
+                      <i className="fas fa-tv color-ico"></i>
                       <p>
                         <span>Resolución</span> HD
                       </p>

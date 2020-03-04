@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import headfcv from "../assets/image/bcs-media/headerfcv.png";
-import fcvexample from "../assets/image/bcs-media/fcv-example.png";
+import fcvexample from "../assets/image/bcs-media/location-fcv.png";
 
 export default class MediaPage extends Component {
   render() {
     return (
-      <div className="about-6-area ovr-h section-padding">
+      <div className="about-6-area ovr-h section-padding ">
         <div className="container">
           <div className="row aic">
             <div

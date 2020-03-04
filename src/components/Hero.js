@@ -5,7 +5,7 @@ import HomeAnimated from "../assets/image/bcs-media/animations/home/home";
 export class Hero extends Component {
   render() {
     return (
-      <div className="hero-area home-3-hero-bg ovr-h">
+      <div className="hero-area  ovr-h">
         <div className="container">
           <div className="row aic">
             <div

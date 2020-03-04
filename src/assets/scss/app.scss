@@ -21,6 +21,8 @@
   /* background-image: url("../image/bcs-media/service-3-bg.png"); */
   background-image: url("../image/bcs-media/point-bk.svg");
   background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
 }
 
 .img-section {
@@ -166,7 +168,7 @@ p {
 }
 
 .service-tab .area-bg {
-  background: url(../image/bcs-media/bk-about-1.svg);
+  background: url(../image/bcs-media/bk-point.svg);
   background-size: 100% 100%;
 }
 
@@ -214,17 +216,15 @@ p {
   font-family: bcs-primary-bold;
   font-size: 17px;
   background: #ce0e2d;
-  border: 1px solid #ce0e2d;
+  border: 1px solid #000;
   color: #ffffff !important;
 }
 
 .border-boxed-btn:hover {
   font-family: bcs-primary-bold;
-  font-size: 17px;
-  background: #fff;
-  border: 1px solid #ce0e2d;
-  color: transpartent !important;
-  border-radius: 15px;
+  box-shadow: 0 5px 15px #555555;
+
+  border-radius: 5px;
 }
 
 /*ICONOS*/
@@ -338,3 +338,24 @@ p {
 .fa-lightbulb {
   color: #ce0e2d !important;
 }
+/* hover */
+
+.is-sticky .home-3-header-area .border-boxed-btn:hover {
+  box-shadow: 0 5px 15px #555555;
+  background-color: #000;
+  border-radius: 10px;
+  border: 1px solid #555555;
+}
+
+.nav-tabs .nav-link:hover {
+  border-color: transparent transparent transparent;
+  border-radius: 0px;
+}
+
+/* .home-3-header-area .border-boxed-btn {
+  background: #ce0e2d;
+  box-shadow: 0 5px 15px #ce0e2d;
+  padding: 15px 50px;
+  border: #ce0e2d solid 1px;
+  border-radius: 10px;
+} */

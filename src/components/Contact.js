@@ -5,7 +5,10 @@ import bcsbk from "../assets/image/bcs-media/contact-bk.svg";
 export class Contact extends Component {
   render() {
     return (
-      <div className="contact-area  home-3-contact-area" id="contact-form">
+      <div
+        className="contact-area  home-3-contact-area service-3-bgi"
+        id="contact-form"
+      >
         <div className="container">
           <div className="row justify-content-center aic">
             <div

@@ -29,7 +29,7 @@ export default class MediaPage extends Component {
                   </p>
                   <br></br>
                 </div>
-                <h2 className="font-primary">CARACTERISTICAS TES</h2>
+                <h2 className="font-primary">CARACTERISTICAS </h2>
 
                 <div className="row">
                   <div

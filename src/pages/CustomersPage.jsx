@@ -1,6 +1,9 @@
 import React, { Component } from "react";
+<<<<<<< HEAD
 import headfcv from "../assets/image/bcs-media/headerfcv.png";
 import fcvexample from "../assets/image/bcs-media/fcv-example.png";
+=======
+>>>>>>> parent of d31c621... FCV
 
 export default class MediaPage extends Component {
   render() {
@@ -27,9 +30,7 @@ export default class MediaPage extends Component {
                     el interior de las farmacias cruz verde, esto hará que cada
                     farmacia tenga una imagen más innovadora y moderna.{" "}
                   </p>
-                  <br></br>
                 </div>
-                <h2 className="font-primary">CARACTERISTICAS</h2>
 
                 <div className="row">
                   <div
@@ -38,7 +39,7 @@ export default class MediaPage extends Component {
                     data-wow-duration="1s"
                   >
                     <div className="single-counter-box">
-                      <i className="far fa-lightbulb"></i>
+                      <i className="far fa-user-friends"></i>
                       <p className="counter-number txt-book-plain">
                         <span>500</span> nits
                       </p>
@@ -52,10 +53,10 @@ export default class MediaPage extends Component {
                   >
                     <div className="single-counter-box">
                       <i className="far fa-clone"></i>
-                      <p className=" txt-book-plain">
-                        <span> 21.2 lb</span>
+                      <p className="counter-number txt-book-plain">
+                        <span>42.5</span>"
                       </p>
-                      <h5>Weight</h5>
+                      <h5>Happy Clients</h5>
                     </div>
                   </div>
                 </div>
@@ -66,7 +67,7 @@ export default class MediaPage extends Component {
                     data-wow-duration="1s"
                   >
                     <div className="single-counter-box">
-                      <i className="fas fa-tv"></i>
+                      <i className="far fa-carrot"></i>
                       <p>
                         <span>Resolución</span> HD
                       </p>
@@ -75,7 +76,6 @@ export default class MediaPage extends Component {
                   </div>
                 </div>
               </div>
-              <br></br>
             </div>
             <div
               className="col-lg-6 wow fadeInRight"
@@ -83,6 +83,7 @@ export default class MediaPage extends Component {
               data-wow-duration="1s"
             >
               <div className="about-6-img">
+<<<<<<< HEAD
                 {/*  <img src="assets/image/bcs-media/headerfcv.png" alt="" /> */}
                 <img
                   src={headfcv}
@@ -106,6 +107,9 @@ export default class MediaPage extends Component {
                     height="480"
                   ></iframe>
                 </div>
+=======
+                <img src="assets/image/about-6-img.png" alt="" />
+>>>>>>> parent of d31c621... FCV
               </div>
               <div className="asset-example">
                 <img src={fcvexample} />

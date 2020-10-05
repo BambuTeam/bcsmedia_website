@@ -1,9 +1,6 @@
 import React, { Component } from "react";
-<<<<<<< HEAD
 import headfcv from "../assets/image/bcs-media/headerfcv.png";
 import fcvexample from "../assets/image/bcs-media/fcv-example.png";
-=======
->>>>>>> parent of d31c621... FCV
 
 export default class MediaPage extends Component {
   render() {
@@ -83,7 +80,6 @@ export default class MediaPage extends Component {
               data-wow-duration="1s"
             >
               <div className="about-6-img">
-<<<<<<< HEAD
                 {/*  <img src="assets/image/bcs-media/headerfcv.png" alt="" /> */}
                 <img
                   src={headfcv}
@@ -107,9 +103,6 @@ export default class MediaPage extends Component {
                     height="480"
                   ></iframe>
                 </div>
-=======
-                <img src="assets/image/about-6-img.png" alt="" />
->>>>>>> parent of d31c621... FCV
               </div>
               <div className="asset-example">
                 <img src={fcvexample} />

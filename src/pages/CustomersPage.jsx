@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import headfcv from "../assets/image/bcs-media/headerfcv.png";
-import fcvexample from "../assets/image/bcs-media/fcv-example.png";
 
 export default class MediaPage extends Component {
   render() {
@@ -89,7 +88,6 @@ export default class MediaPage extends Component {
                 />
               </div>
             </div>
-            <div className="rectangle"></div>
             <div
               className="col-sm-12 wow fadeInUp"
               data-wow-delay="0.6s"
@@ -103,9 +101,6 @@ export default class MediaPage extends Component {
                     height="480"
                   ></iframe>
                 </div>
-              </div>
-              <div className="asset-example">
-                <img src={fcvexample} />
               </div>
             </div>
           </div>

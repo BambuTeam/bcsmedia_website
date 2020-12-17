@@ -22,6 +22,7 @@ function Main() {
       {/* <Header /> */}
 
       <Hero />
+      <About />
       <Servicesnew />
 
       {/* <Services /> */}

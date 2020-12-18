@@ -15,10 +15,19 @@ export class Servicesnew extends Component {
             >
               <div className="home-2-section-title">
                 <div className="home-4-icon"></div>
-                <h2 className="nuestros">
+                <div className="home-3-hero-title">
+                <h1
+                  className="wow fadeInUp"
+                  data-wow-delay="0.5s"
+                  data-wow-duration="1s"
+                >
+                <strong className="font-primary color-primary">Nuestros Valores</strong>
+                </h1>
+                </div>
+                {/* <h2 className="nuestros">
                   Nuestros <strong>valores</strong>
                   <br></br>
-                </h2>
+                </h2> */}
               </div>
             </div>
           </div>

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import bcsmediaicon from "../assets/image/home/bk-transparent.png";
 import bcsbk from "../assets/image/bcs-media/contact-bk.svg";
 
 export class Contact extends Component {

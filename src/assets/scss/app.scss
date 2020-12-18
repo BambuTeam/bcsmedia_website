@@ -173,8 +173,8 @@ p {
 
 .tab-section li a:hover,
 .nav-tabs .nav-link.active {
-  box-shadow: 0 0 5px #ce0e2d;
-  background-color: #ce0e2d;
+  box-shadow: 0 0 3px #ce0e2d;
+  background-color: #fff;
 
   border-radius: 15px;
 }
@@ -277,7 +277,8 @@ p {
 }
 
 .new1 {
-  border-top: 1px solid #cf152d;
+  border-top: 1px solid #cf152e69;
+  border-style: outset;
 }
 
 .new2 {

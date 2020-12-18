@@ -400,8 +400,8 @@ a.boxed-btn,
 .contact-form form p button:hover,
 a.boxed-btn:hover,
 .contact-form-area button:hover {
-  border-color: #ffbc48;
-  color: #ffbc48;
+  border-color: #ce0e2d;
+  color: #ce0e2d;
 }
 
 .all-hero-img {
@@ -1993,7 +1993,7 @@ a.border-boxed-btn.m-35 {
 
 .single-post-tag .social-share a:hover {
   background: #ffbc48;
-  border-color: #ffbc48;
+  border-color: #ce0e2d;
 }
 
 .single-post-tag .social-share span {
@@ -2126,7 +2126,7 @@ a.border-boxed-btn.m-35 {
 }
 
 .single-post-area a.border-boxed-btn:hover {
-  background: #ffbc48;
+  background: #ce0e2d;
 }
 
 /*==========
@@ -2287,11 +2287,11 @@ Home 3 CSS
 .home-3-tab-section .home-3-section-title .border-boxed-btn,
 .home-3-contact-area .contact-form form p button,
 .home-3-footer-area .subscribe-form button {
-  background: #ce0e2d;
-  margin-top: 30px;
-  border-color: #ce0e2d;
-  box-shadow: 0 5px 15px #ce0e2d;
-  border-radius: 10px;
+background: #ce0e2d;
+box-shadow: 0 5px 5px #595959;
+padding: 15px 50px;
+border: #ce0e2d solid 1px;
+border-radius: 5px;
 }
 
 .contact-form .home-3-section-title {

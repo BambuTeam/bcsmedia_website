@@ -59,7 +59,7 @@ export default class About extends Component {
                     data-wow-delay="0.3s"
                     data-wow-duration="1s"
                   >
-                    <a
+                    {/* <a
                       className="nav-link"
                       id="profile-tab"
                       data-toggle="tab"
@@ -68,8 +68,8 @@ export default class About extends Component {
                       aria-controls="profile"
                       aria-selected="false"
                     >
-                      Historia
-                    </a>
+                      Historia LKJLJLKJLK
+                    </a> */}
                   </li>
                   <li
                     className="nav-item wow fadeInUp"
@@ -155,7 +155,7 @@ export default class About extends Component {
                       data-wow-duration="1s"
                     />
                   </div>
-                  <div
+                  {/* <div
                     className="tab-text wow fadeInUp"
                     data-wow-delay="0.5s"
                     data-wow-duration="1s"
@@ -175,7 +175,7 @@ export default class About extends Component {
                     <a href="#" className="read-more-btn">
                       Learn More <i className="far fa-arrow-right" />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
                 <div
                   className="tab-pane fade"

@@ -1,6 +1,4 @@
 import React, { Component, Fragment } from "react";
-import HomeAnimated from "../assets/image/bcs-media/animations/home/home";
-import imgbk from "../assets/image/bcs-media/bk-about-1.png";
 import img1 from "../assets/image/bcs-media/history.svg";
 import img2 from "../assets/image/bcs-media/img-aboutus.svg";
 import img3 from "../assets/image/bcs-media/values.svg";

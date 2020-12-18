@@ -22,7 +22,7 @@ function Main() {
       {/* <Header /> */}
 
       <Hero />
-      <About />
+      <About /> 
       <Servicesnew />
 
       {/* <Services /> */}
@@ -42,11 +42,15 @@ function App() {
         <div className="home-3">
           <Header />
 
-          <Route exact path="/" component={Main} />
           <Route exact path="/about" component={About} />
           <Route exact path="/services" component={ServicesPage} />
 
-          <Route exact path="/media" component={CustomersPage} />
+          <Route exact path="/contact" component={CustomersPage} />
+          <Route exact path="/clientes" component={CustomersPage} />
+
+          <Route exact path="/home" component={Main} />
+          <Route exact path="/" component={Main} />
+
 
           <Footer />
         </div>

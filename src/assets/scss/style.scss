@@ -219,10 +219,12 @@ button#menu-button {
   padding: 20px 14px;
   text-transform: uppercase;
   font-size: 15px;
+  
 }
 
 .mainmenu li a.active {
-  color: #ffbc48 !important;
+  
+  color: #fff !important;
 }
 
 .mainmenu li a:after {
@@ -2205,7 +2207,7 @@ Home 3 CSS
 }
 
 .home-3-contact-area-img {
-  margin-left: calc((-70vw + 100%) / 2);
+ /*  margin-left: calc((-70vw + 100%) / 2); */
 }
 
 .home-3-section-title h2 {
@@ -2379,7 +2381,8 @@ border-radius: 5px;
 }
 
 .home-3-tab-list li a.nav-link.active {
-  background: none;
+  background-color: #CE0E2D;
+  color: #fff;
   box-shadow: none;
   position: relative;
   z-index: 1;
@@ -4632,4 +4635,14 @@ a.boxed-btn,
   .aic {
     flex-flow: row;
   }
+}
+
+.selected{
+  background-color: #ce0e2d;
+  
+
+}
+
+a .selected{
+  color: #fff !important;
 }

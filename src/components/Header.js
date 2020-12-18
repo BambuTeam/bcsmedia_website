@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 // Assets
 import logosvg from "../assets/image/bcs-media/logo.svg";
 
@@ -30,29 +30,29 @@ export class Header extends Component {
                 <div className="mainmenu sm-hidden xs-hidden">
                   <ul>
                     <li>
-                      <Link className="nav-link active" to="/">
+                      <NavLink  activeClassName="selected"  to="/home">
                         Home
-                      </Link>
+                      </NavLink>
                     </li>
                     <li>
-                      <Link className="nav-link" to="/about">
+                      <NavLink  activeClassName="selected" to="/about">
                         About
-                      </Link>
+                      </NavLink>
                     </li>
                     <li>
-                      <a className="nav-link" href="/services">
+                      <NavLink activeClassName="selected"  to="/services">
                         Services
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a className="nav-link" href="/media">
+                      <NavLink activeClassName="selected" to="/clientes">
                         Clientes
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a className="nav-link" href="#contact">
+                      <NavLink activeClassName="selected" to="/contact">
                         Contact
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </div>

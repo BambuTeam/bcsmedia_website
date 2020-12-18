@@ -47,9 +47,9 @@ export class SectionTab extends Component {
                       aria-controls="home"
                       aria-selected="true"
                     >
-                      <div className="tab-service">
+                      
                         <b>Pantallas digitales</b>
-                      </div>
+                      
                     </a>
                   </li>
                   <li className="nav-item">

@@ -176,7 +176,7 @@ p {
   box-shadow: 0 0 3px #ce0e2d;
   background-color: #fff;
 
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 /* Read More */
@@ -282,7 +282,7 @@ p {
 }
 
 .new2 {
-  border-top: 2px solid #cf152d;
+  /* border-top: 2px solid #cf152d; */
 }
 
 .txt-title-section {
@@ -327,4 +327,9 @@ p {
   position: absolute;
   padding-bottom: 150px;
   width: 15%;
+}
+
+
+.menuactive{
+  background-color: #ce0e2d;
 }

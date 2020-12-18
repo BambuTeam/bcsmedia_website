@@ -2238,10 +2238,10 @@ Home 3 CSS
 
 .subscribe-form.home-3-subscribe-form button {
   background: #ce0e2d;
-  box-shadow: 0 5px 15px #ce0e2d;
+  box-shadow: 0 5px 5px #595959;
   padding: 15px 50px;
   border: #ce0e2d solid 1px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .home-3-contact-area form p input[type="text"]:focus,
@@ -2258,8 +2258,10 @@ Home 3 CSS
 }
 
 .hero-area.home-3-hero-bg .subscribe-form input[type="email"] {
-  border: 1px solid #ddd;
-  border-radius: 10px;
+  border: 1px solid #CE0E2D;
+  background-color: #EDEDEE;
+  box-shadow: 0 5px 5px #595959;
+  border-radius: 5px;
 }
 
 .testimonial-area.home-3-testimonial-area {

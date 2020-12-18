@@ -19,13 +19,12 @@ export class Hero extends Component {
                   data-wow-delay="0.5s"
                   data-wow-duration="1s"
                 >
-                  <strong className="font-primary color-primary">bcs</strong>
-                  -media
+                  <strong className="font-primary color-primary">Haz realidad tus ideas</strong>
+                  
                 </h1>
-                <p className="wow fadeInUp" data-wow-delay="0.3s">
-                  Like any great agency we are only as good as the results we
-                  deliver of our recent work.
-                </p>
+                {/* <p className="wow fadeInUp" data-wow-delay="0.3s">
+                  Tus Ideas
+                </p> */}
                 <div
                   className="subscribe-form home-3-subscribe-form wow fadeInUp"
                   data-wow-delay="0.4s"
@@ -34,11 +33,11 @@ export class Hero extends Component {
                   <form id="mc-form">
                     <input
                       type="email"
-                      placeholder="Email address"
+                      placeholder="Correo Electronico"
                       id="mc-email"
                       className="mr-md-3"
                     />
-                    <button type="submit">Get Quotes</button>
+                    <button type="submit">contáctanos</button>
                   </form>
                 </div>
               </div>

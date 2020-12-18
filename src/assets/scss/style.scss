@@ -25,6 +25,7 @@ CSS Index
 Base CSS
 =======*/
 
+
 @import url("https://fonts.googleapis.com/css?family=Overpass:300,400,400i,600,600i,700,700i&display=swap");
 @font-face {
   font-family: "bcs-primary-bold";
@@ -102,6 +103,7 @@ body {
 .aic {
   -ms-align-items: center;
   align-items: center;
+  flex-flow: column-reverse;
 }
 
 /*=== Border Radius 50% ===*/
@@ -629,9 +631,7 @@ a.boxed-btn:hover,
   padding: 70px 0;
 }
 
-.service-tab .section-title {
-  margin-bottom: 80px;
-}
+
 
 .read-more-btn i {
   margin-left: 5px;
@@ -640,7 +640,7 @@ a.boxed-btn:hover,
 .service-tab {
   background-size: cover;
   background-position: center;
-  padding-bottom: 600px;
+
   padding-top: 130px;
 }
 
@@ -2177,11 +2177,7 @@ Home 3 CSS
   color: #fff !important;
 }
 
-.service-3-bgi {
-  position: relative;
-  z-index: 1;
-  padding: 80px 0 60px;
-}
+
 
 .service-3-bgi:after {
   position: absolute;
@@ -4602,9 +4598,7 @@ a.boxed-btn,
     FIXING
 ===============================*/
 
-.service-tab.section-padding {
-  padding-bottom: 400px;
-}
+
 
 .service-tab .area-bg {
   background: url(../image/service-tab-bg.png);
@@ -4617,4 +4611,23 @@ a.boxed-btn,
   text-align: justify;
   padding: 21px;
   color: #61dafb;
+
+
+}
+
+@media only screen and (min-width: 768px){
+  .service-tab .section-title {
+    margin-bottom: 80px;
+  }
+  .service-tab.section-padding {
+    padding-bottom: 100px;
+  }
+  .service-3-bgi {
+    position: relative;
+    z-index: 1;
+    padding: 80px 0 60px;
+  }
+  .aic {
+    flex-flow: row;
+  }
 }

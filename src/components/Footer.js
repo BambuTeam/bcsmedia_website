@@ -17,13 +17,15 @@ export class Footer extends Component {
               <div className="row justify-content-center">
                 <div className="col-lg-7 text-center">
                   <div className="section-title">
-                    <h2
-                      className="wow fadeInDown"
-                      data-wow-delay="0.2s"
+                  <div className="home-3-hero-title footer-text">
+                    <h1
+                      className="wow fadeInUp"
+                      data-wow-delay="0.5s"
                       data-wow-duration="1s"
                     >
-                      Have questions in mind? Let us <strong>help you.</strong>
-                    </h2>
+                      ¿Tiene preguntas en mente? <strong>contáctanos</strong>
+                    </h1>
+                    </div>
                     <div
                       className="subscribe-form footer-subscribe-form wow fadeInUp"
                       data-wow-delay="0.4s"
@@ -33,10 +35,10 @@ export class Footer extends Component {
                         <input
                           className="mr-md-3"
                           type="email"
-                          placeholder="Email Address"
+                          placeholder="Correo Electronico"
                           id="mc-email-footer"
                         />
-                        <button type="submit">Get your Estimate</button>
+                        <button type="submit" className="btn-footer">ENVIAR</button>
                       </form>
                     </div>
                   </div>

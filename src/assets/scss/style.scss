@@ -2323,7 +2323,8 @@ border-radius: 5px;
 
 .home-3-footer-area .subscribe-form input[type="email"],
 .home-3-footer-area .subscribe-form button {
-  border-radius: 50px;
+  border-radius: 10px;
+  background-color: black !important;
 }
 
 .home-3-footer-area .subscribe-form input[type="email"] {
@@ -4667,3 +4668,15 @@ a + .selected{
     color:#fff !important;  
   }
 }
+<<<<<<< Updated upstream
+=======
+
+a .selected{
+  color: #fff !important;
+}
+
+.footer-text h1{
+  color: #fff !important;
+}
+
+>>>>>>> Stashed changes

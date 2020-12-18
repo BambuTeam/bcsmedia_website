@@ -197,7 +197,7 @@ button#menu-button {
 }
 
 .mainmenu li a.active {
-    color: #FFBC48 !important;
+    color: #CE0E2D !important;
 }
 
 .mainmenu li a:after {
@@ -207,7 +207,7 @@ button#menu-button {
     width: 0;
     height: 3px;
     content: "";
-    background-color: #FFBC48;
+    background-color: #CE0E2D;
     z-index: -1;
     transition: .3s;
     border-radius: 5px;
@@ -256,14 +256,14 @@ button#menu-button {
 }
 
 .mainmenu li li:hover > a {
-    background: #FFBC48;
+    background: #CE0E2D;
     color: #ffffff;
 }
 
 .mainmenu li:hover > a,
 .home-2-header-area .mainmenu li:hover > a,
 .footer-mainmenu li:hover > a {
-    color: #FFBC48;
+    color: #CE0E2D;
 }
 
 .mainmenu li ul li a.active:hover,
@@ -318,11 +318,11 @@ button#menu-button {
 .border-boxed-btn,
 .tagcloud a {
     display: inline-block;
-    color: #ffbc48;
+    color: #CE0E2D;
     font-size: 15px;
     padding: 13px 40px;
     font-weight: bold;
-    border: #ffbc48 solid 1px;
+    border: #CE0E2D solid 1px;
 }
 
 a.border-boxed-btn {
@@ -330,7 +330,7 @@ a.border-boxed-btn {
 }
 
 .border-boxed-btn:hover {
-    background: #ffbc48;
+    background: #CE0E2D;
     color: #ffffff;
 }
 
@@ -352,7 +352,7 @@ a.border-boxed-btn {
     padding: 15px;
     border: none;
     margin-right: 10px;
-    border: #FFBC48 solid 1px;
+    border: #CE0E2D solid 1px;
 }
 
 .subscribe-form button,
@@ -362,11 +362,11 @@ a.boxed-btn,
     padding: 15px 40px;
     cursor: pointer;
     border: none;
-    background: #FFBC48;
+    background: #CE0E2D;
     font-size: 17px;
     font-weight: bold;
-    box-shadow: 0 0px 20px rgba(255, 188, 72, 0.4);
-    border: #FFBC48 solid 1px;
+    box-shadow: 0 0px 20px rgba(225, 22, 0, 0.892);
+    border: #CE0E2D solid 1px;
     color: #ffffff;
 }
 
@@ -374,8 +374,8 @@ a.boxed-btn,
 .contact-form form p button:hover,
 a.boxed-btn:hover,
 .contact-form-area button:hover {
-    border-color: #FFBC48;
-    color: #FFBC48;
+    border-color: #CE0E2D;
+    color: #CE0E2D;
 }
 
 .all-hero-img {
@@ -520,7 +520,7 @@ a.boxed-btn:hover,
 }
 
 .learn-more:hover {
-    color: #FFBC48;
+    color: #CE0E2D;
 }
 
 .single-service-item:hover,
@@ -583,12 +583,12 @@ a.boxed-btn:hover,
 
 .read-more-btn {
     font-size: 17px;
-    color: #ffbc48;
+    color: #CE0E2D;
     font-weight: bold;
 }
 
 .read-more-btn:hover {
-    color: #ffbc48;
+    color: #CE0E2D;
 }
 
 .read-more-btn:hover i {
@@ -693,7 +693,7 @@ a.boxed-btn:hover,
 }
 
 .testimonial-carousel .owl-dots button.active {
-    background: #FFBC48;
+    background: #CE0E2D;
     width: 12px;
     height: 12px;
 }
@@ -818,8 +818,8 @@ a.boxed-btn:hover,
 }
 
 .case-study-btn button {
-    background: #FFBC48;
-    border: #FFBC48 solid 1px;
+    background: #CE0E2D;
+    border: #CE0E2D solid 1px;
     border-radius: 50%;
     cursor: pointer;
     width: 60px;
@@ -834,7 +834,7 @@ a.boxed-btn:hover,
 }
 
 .case-study-btn button:hover {
-    color: #FFBC48;
+    color: #CE0E2D;
 }
 
 
@@ -873,7 +873,7 @@ a.boxed-btn:hover,
 .contact-form form p textarea:focus {
     color: #79879d;
     background-color: rgba(255, 188, 72, 0.07);
-    border-color: #ffbc48;
+    border-color: #CE0E2D;
 }
 
 
@@ -930,7 +930,7 @@ a.boxed-btn:hover,
 }
 
 .social-link a:hover {
-    color: #FFBC48;
+    color: #CE0E2D;
 }
 
 .footer-mainmenu li a {
@@ -1486,7 +1486,7 @@ About page area CSS
 }
 
 .breadcromb-area a:hover {
-    color: #FFBC48;
+    color: #CE0E2D;
 }
 
 .breadcromb-area {
@@ -1624,7 +1624,7 @@ About page area CSS
 }
 
 .social-links a:hover {
-    color: #FFBC48;
+    color: #CE0E2D;
 }
 
 .heading-collapse h4 a {
@@ -1825,8 +1825,8 @@ Blog area CSS
 }
 
 .tagcloud a:hover {
-    border-color: #ffbc48;
-    background: #ffbc48;
+    border-color: #CE0E2D;
+    background: #CE0E2D;
 }
 
 .single-blog-box .border-boxed-btn {
@@ -1835,7 +1835,7 @@ Blog area CSS
     background: #fff9ee;
 }
 .single-blog-box .border-boxed-btn:hover {
-    background: #ffbc48;
+    background: #CE0E2D;
 }
 
 .blog-pd {
@@ -1860,7 +1860,7 @@ Blog area CSS
 }
 
 .search-form button i {
-    color: #FFBC48;
+    color: #CE0E2D;
 }
 
 .search-form {
@@ -1880,7 +1880,7 @@ a.border-boxed-btn.m-35 {
     position: relative;
     width: 60px;
     content: "";
-    background: #FFBC48;
+    background: #CE0E2D;
     height: 3px;
     display: inline-block;
     top: -5px;
@@ -1908,7 +1908,7 @@ a.border-boxed-btn.m-35 {
 }
 
 .category-widgets li a:hover span {
-    color: #FFBC48;
+    color: #CE0E2D;
 }
 
 .recent-content h5 {
@@ -1994,8 +1994,8 @@ a.border-boxed-btn.m-35 {
 }
 
 .single-post-tag .social-share a:hover {
-    background: #FFBC48;
-    border-color: #FFBC48;
+    background: #CE0E2D;
+    border-color: #CE0E2D;
 }
 
 .single-post-tag .social-share span {
@@ -2070,7 +2070,7 @@ a.border-boxed-btn.m-35 {
 
 .comment-reply-btn,
 .comment-reply-btn:hover {
-    color: #ffbc48;
+    color: #CE0E2D;
     font-size: 17px;
     display: inline-block;
 }
@@ -2119,7 +2119,7 @@ a.border-boxed-btn.m-35 {
 .contact-form-area input[type="text"]:focus,
 .contact-form-area input[type="email"]:focus,
 .contact-form-area textarea:focus {
-    border: 1px solid #ffbc48;
+    border: 1px solid #CE0E2D;
 }
 
 .single-post-area a.border-boxed-btn {
@@ -2127,7 +2127,7 @@ a.border-boxed-btn.m-35 {
     height: 43px;
 }
 .single-post-area a.border-boxed-btn:hover {
-    background: #ffbc48;
+    background: #CE0E2D;
 }
 /*==========
 Home 3 CSS
@@ -4347,7 +4347,7 @@ img.dot_b_4 {
 #topcontrol i {
     font-size: 16px;
     font-weight: 900;
-    color: #FFBC48;
+    color: #CE0E2D;
     transition: .3s;
 }
 

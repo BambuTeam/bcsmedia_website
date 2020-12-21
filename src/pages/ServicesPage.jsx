@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import img1 from "../assets/image/bcs-media/medios-d.png";
-import img2 from "../assets/image/bcs-media/pc-d.png";
-import img3 from "../assets/image/bcs-media/clock.png";
+import img1 from "../assets/image/bcs-media/medios.svg";
+import img2 from "../assets/image/bcs-media/arrow.svg";
+import img3 from "../assets/image/bcs-media/clock.svg";
 
 export default class ServicesPage extends Component {
   render() {

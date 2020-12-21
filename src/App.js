@@ -15,6 +15,7 @@ import ServicesPage from "./pages/ServicesPage";
 // import "./assets/css/main.css"
 import "./assets/scss/app.scss";
 import { Servicesnew } from "./components/Service-2";
+import Homesection from "./pages/Homesection";
 
 function Main() {
   return (
@@ -22,7 +23,7 @@ function Main() {
       {/* <Header /> */}
 
       <Hero />
-      <About /> 
+      <Homesection /> 
       <Servicesnew />
 
       {/* <Services /> */}

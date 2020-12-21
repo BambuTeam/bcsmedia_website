@@ -2,7 +2,22 @@ import React, { Component } from "react";
 import bcsbk from "../assets/image/bcs-media/contact-bk.svg";
 
 
+import MailchimpSubscribe from "react-mailchimp-subscribe";
 
+const Customform = ({status, message, onValidated})=>{
+  let email, name, mensaje;
+  const submit = ()=>{
+    email &&
+    name &&
+    mensaje &&
+    email.value.indexOf("@") > -1 &&
+    onValidated({
+      EMAIL: email.value,
+      NAME: name.value,
+      MENSAJE: name.value
+    });
+  }
+}
 
 
 export class Contact extends Component {

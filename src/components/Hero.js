@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
 import HomeAnimated from "../assets/image/bcs-media/animations/home/home";
+import MailchimpSubscribe from "react-mailchimp-subscribe"
+
 
 export class Hero extends Component {
   render() {
@@ -30,15 +32,8 @@ export class Hero extends Component {
                   data-wow-delay="0.4s"
                   data-wow-duration="1s"
                 >
-                  <form id="mc-form">
-                    <input
-                      type="email"
-                      placeholder="Correo Electronico"
-                      id="mc-email"
-                      className="mr-md-3"
-                    />
-                    <button type="submit">contáctanos</button>
-                  </form>
+                  <MailchimpSubscribe url={process.env.REACT_APP_MAILCHIMP_URL} />
+                 
                 </div>
               </div>
             </div>

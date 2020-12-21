@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import bcsbk from "../assets/image/bcs-media/contact-bk.svg";
 
+
+
+
+
 export class Contact extends Component {
   render() {
     return (
@@ -61,6 +65,8 @@ export class Contact extends Component {
                       rows="10"
                       placeholder="Messages"
                     ></textarea>{" "}
+
+                    
                     <button
                       type="submit"
                       id="submit"

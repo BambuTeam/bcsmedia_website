@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import headfcv from "../assets/image/bcs-media/headerfcv.png";
+import headfcv from "../assets/image/bcs-media/window.png";
 import fcvexample from "../assets/image/bcs-media/fcv-example.png";
 
 export default class MediaPage extends Component {
@@ -101,7 +101,7 @@ export default class MediaPage extends Component {
               <div className="row">
                 <div className="container">
                   <iframe
-                    src="https://www.google.com/maps/d/embed?mid=1WpMfU43KDNMzoXp_fppx8nbBfAmUeUr5"
+                    src="https://www.google.com/maps/d/u/0/embed?mid=1WpMfU43KDNMzoXp_fppx8nbBfAmUeUr5"
                     width="100%"
                     height="480"
                   ></iframe>

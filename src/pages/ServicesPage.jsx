@@ -49,7 +49,7 @@ export default class ServicesPage extends Component {
                       target market, the payoffs will be worth it.
                     </p>
                     <a href className="border-boxed-btn">
-                      Get your Estimate <i className="far fa-angle-right" />
+                    Obtenga su presupuesto <i className="far fa-angle-right" />
                     </a>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ export default class ServicesPage extends Component {
                       Animación 2D
                     </p>
                     <a href className="border-boxed-btn">
-                      Get your Estimate <i className="far fa-angle-right" />
+                    Obtenga su presupuesto <i className="far fa-angle-right" />
                     </a>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ export default class ServicesPage extends Component {
                     </p>
 
                     <a href className="border-boxed-btn">
-                      Get your Estimate <i className="far fa-angle-right" />
+                    Obtenga su presupuesto <i className="far fa-angle-right" />
                     </a>
                   </div>
                 </div>

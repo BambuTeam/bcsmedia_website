@@ -36,12 +36,12 @@ export class Header extends Component {
                     </li>
                     <li>
                       <NavLink  activeClassName="selected" to="/about">
-                        About
+                        Nosotros
                       </NavLink>
                     </li>
                     <li>
                       <NavLink activeClassName="selected"  to="/services">
-                        Services
+                        Servicios
                       </NavLink>
                     </li>
                     <li>
@@ -51,7 +51,7 @@ export class Header extends Component {
                     </li>
                     <li>
                       <NavLink activeClassName="selected" to="/contact">
-                        Contact
+                        Contactenos
                       </NavLink>
                     </li>
                   </ul>

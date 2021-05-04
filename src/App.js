@@ -25,7 +25,6 @@ function Main() {
       {/* <Header /> */}
       <ReactPlayer
         url='https://crossmediaplus.com/s3/bcsvideos/Farmacia.MP4'
-
         width='100%'
         height='100%'
         playing

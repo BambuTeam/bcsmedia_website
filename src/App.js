@@ -16,14 +16,23 @@ import ServicesPage from "./pages/ServicesPage";
 import "./assets/scss/app.scss";
 import { Servicesnew } from "./components/Service-2";
 import Homesection from "./pages/Homesection";
+import ReactPlayer from 'react-player';
+
 
 function Main() {
   return (
     <Fragment>
       {/* <Header /> */}
-
+      <ReactPlayer
+        url='https://crossmediaplus.com/s3/bcsvideos/Coffe.MP4'
+        
+        width='100%'
+        height='100%'
+        playing
+        loop
+      />
       <Hero />
-      <Homesection /> 
+      <Homesection />
       <Servicesnew />
 
       {/* <Services /> */}

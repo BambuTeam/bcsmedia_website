@@ -24,7 +24,7 @@ function Main() {
     <Fragment>
       {/* <Header /> */}
       <ReactPlayer
-        url='https://crossmediaplus.com/s3/bcsvideos/Coffe.MP4'
+        url='https://crossmediaplus.com/s3/bcsvideos/Farmacia.MP4'
 
         width='100%'
         height='100%'

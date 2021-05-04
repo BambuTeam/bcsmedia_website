@@ -1,12 +1,23 @@
-import React, { Component } from "react";
+import React from "react";
 import bcsbk from "../assets/image/bcs-media/contact-bk.svg";
+import emailjs from 'emailjs-com';
 
-export class Contact extends Component {
-  render() {
-    return (
-      
-      <div className="section-padding client-logo-area">
-        <div className="contact-area  home-3-contact-area" id="contact-form">
+
+export default function Contact() {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_kzkku1q', 'template_t7bid0k', e.target, 'user_5bDIgYddipK9ipPSncbgw')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  }
+  return (
+    <div className="section-padding client-logo-area">
+      <div className="contact-area  home-3-contact-area" id="contact-form">
         <div className="container">
           <div className="row justify-content-center aic">
             <div
@@ -36,7 +47,7 @@ export class Contact extends Component {
                 <form
                   id="contactForm"
                   data-toggle="validator"
-                  className="shake"
+                  className="shake" onSubmit={sendEmail}
                 >
                   <p>
                     <label> Name * </label>
@@ -76,10 +87,8 @@ export class Contact extends Component {
             </div>
           </div>
         </div>
-        </div>
-        </div>
-    );
-  }
+      </div>
+    </div>
+  );
 }
 
-export default Contact;

@@ -17,6 +17,7 @@ import "./assets/scss/app.scss";
 import { Servicesnew } from "./components/Service-2";
 import Homesection from "./pages/Homesection";
 import ReactPlayer from 'react-player';
+import Shape from "./components/Shape";
 
 
 function Main() {
@@ -24,13 +25,13 @@ function Main() {
     <Fragment>
       {/* <Header /> */}
       <ReactPlayer
-        url='https://crossmediaplus.com/s3/bcsvideos/Farmacia.MP4'
-
+        url='http://crossmediaplus.com/s3/bcsvideos/Farmacia.MP4'
         width='100%'
         height='100%'
         playing
         loop
       />
+      <Shape />
       <Hero />
       <Homesection />
       <Servicesnew />

@@ -52,6 +52,7 @@ export default function Contact() {
                   <p>
                     <label> Name * </label>
                     <input
+                      name="name"
                       type="text"
                       id="name"
                       placeholder="Nombre Completo*"
@@ -60,6 +61,7 @@ export default function Contact() {
                   <p>
                     <label> Email * </label>{" "}
                     <input
+                      name="email"
                       type="email"
                       id="email"
                       placeholder="contacto@dominio.com*"
@@ -68,7 +70,7 @@ export default function Contact() {
                   <p>
                     <label> Messages * </label>{" "}
                     <textarea
-                      name="name"
+                      name="message"
                       id="message"
                       cols="30"
                       rows="10"

@@ -4,7 +4,9 @@ import bcsbk from "../assets/image/bcs-media/contact-bk.svg";
 export class Contact extends Component {
   render() {
     return (
-      <div className="contact-area  home-3-contact-area" id="contact-form">
+      
+      <div className="section-padding client-logo-area">
+        <div className="contact-area  home-3-contact-area" id="contact-form">
         <div className="container">
           <div className="row justify-content-center aic">
             <div
@@ -74,7 +76,8 @@ export class Contact extends Component {
             </div>
           </div>
         </div>
-      </div>
+        </div>
+        </div>
     );
   }
 }

@@ -25,7 +25,7 @@ function Main() {
       {/* <Header /> */}
       <ReactPlayer
         url='https://crossmediaplus.com/s3/bcsvideos/Coffe.MP4'
-        
+
         width='100%'
         height='100%'
         playing
@@ -55,7 +55,7 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/services" component={ServicesPage} />
 
-          <Route exact path="/contact" component={CustomersPage} />
+          <Route exact path="/contact" component={Contact} />
           <Route exact path="/clientes" component={CustomersPage} />
 
           <Route exact path="/home" component={Main} />

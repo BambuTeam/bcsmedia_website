@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import ScrollToTop from "./Scrolltotop";
 
 import Services from "./components/Services";
 import SectionTab from "./components/SectionTab";
@@ -49,7 +50,8 @@ function Main() {
 function App() {
   return (
     <BrowserRouter>
-      <Switch>
+    <ScrollToTop />
+          <Switch>
         <div className="home-3">
           <Header />
 

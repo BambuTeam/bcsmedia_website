@@ -1,12 +1,32 @@
-import React, { Component } from "react";
+import React from "react";
+import bcsbk from "../assets/image/bcs-media/contact-bk.svg";
+import emailjs from 'emailjs-com';
+import swal from 'sweetalert';
+import { Link } from "react-router-dom";
 
-export class Contact extends Component {
-  render() {
-    return (
-      <div
-        className="contact-area section-padding home-3-contact-area"
-        id="contact-form"
-      >
+export default function Contact() {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_kzkku1q', 'template_t7bid0k', e.target, 'user_5bDIgYddipK9ipPSncbgw')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  }
+  const mostarAlert = () => {
+    swal({
+      title: "Gracias por realizar tu contancto",
+      text: "Pronto se estaran comunicando contigo, somos Bsc-Media",
+      icon: "success",
+      timer: 3000
+    });
+  }
+  return (
+    <div className="section-padding client-logo-area">
+      <div className="contact-area  home-3-contact-area" id="contact-form">
         <div className="container">
           <div className="row justify-content-center aic">
             <div
@@ -15,7 +35,8 @@ export class Contact extends Component {
               data-wow-duration="1s"
             >
               <div className="home-3-contact-area-img">
-                <img src="assets/image/contact-img-3.png" alt="" />
+                <img src={bcsbk} alt="" />
+                {/* <img src="assets/image/contact-img-3.png" alt="" /> */}
               </div>
             </div>
             <div
@@ -26,34 +47,55 @@ export class Contact extends Component {
               <div className="contact-form">
                 <div className="home-3-section-title">
                   <h2>
-                    Need a help? Don’t worry just <strong>contact us.</strong>
+                    <strong className="font-primary"> Contacto </strong>
+                    <p className="font-txt">
+                      ¡TRABAJEMOS JUNTOS! <br></br>CONTÁCTANOS{" "}
+                    </p>
                   </h2>
                 </div>
-                <form id="contactForm" data-toggle="validator" className="shake">
+                <form
+                  id="contactForm"
+                  data-toggle="validator"
+                  className="shake" onSubmit={sendEmail}
+                >
                   <p>
-                    <label>Name*</label>
-                    <input type="text" id="name" placeholder="Gary Roberson*" />
-                  </p>
-                  <p>
-                    <label>Email*</label>
+                    <label> Name * </label>
                     <input
-                      type="email"
-                      id="email"
-                      placeholder="noah_cremin@yahoo.com"
+                      name="name"
+                      type="text"
+                      id="name"
+                      placeholder="Nombre Completo*"
                     />
                   </p>
                   <p>
-                    <label>Messages*</label>
+                    <label> Email * </label>{" "}
+                    <input
+                      name="email"
+                      type="email"
+                      id="email"
+                      placeholder="contacto@dominio.com*"
+                    />
+                  </p>{" "}
+                  <p>
+                    <label> Messages * </label>{" "}
                     <textarea
-                      name="name"
+                      name="message"
                       id="message"
                       cols="30"
                       rows="10"
                       placeholder="Messages"
-                    ></textarea>
-                    <button type="submit" id="submit" className="boxed-btn">
-                      Get Estimated Price
-                    </button>
+                    ></textarea>{" "}
+                    <Link to="/home">
+                      <button
+                        type="submit"
+                        id="submit"
+                        className="boxed-btn font-txt"
+                        onClick={() => mostarAlert()}
+                        Link='/home'
+                      >
+                        ENVIAR{" "}
+                      </button>
+                    </Link>
                   </p>
                 </form>
               </div>
@@ -61,8 +103,7 @@ export class Contact extends Component {
           </div>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
-export default Contact;

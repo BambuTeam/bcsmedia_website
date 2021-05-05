@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-
-import "../assets/css/main.css"
+import { NavLink, Link } from "react-router-dom";
+// Assets
+import logosvg from "../assets/image/bcs-media/logo.svg";
 
 export class Header extends Component {
   render() {
@@ -11,49 +12,47 @@ export class Header extends Component {
             <div className="row">
               <div className="col-md-2 col-sm-6 w-50">
                 <div className="logo">
-                  <a href="#">
-                    <img src="assets/image/logo/sticky_logo_red.png" alt="" />
-                  </a>
+                  <Link to="/">
+                    <img src={logosvg} alt="" width="70px" />
+                  </Link>
                 </div>
               </div>
               <div className="col-md-10 col-sm-6 w-50">
                 <button id="menu-button">Menu</button>
                 <div className="header-signup xs-hidden sm-hidden">
-                  <a href="#" className="border-boxed-btn">
+                  <a
+                    href="http://system.bcs-media.com/login"
+                    className="border-boxed-btn"
+                  >
                     Sign Up
                   </a>
                 </div>
                 <div className="mainmenu sm-hidden xs-hidden">
                   <ul>
                     <li>
-                      <a className="nav-link active" href="#">
+                      <NavLink  activeClassName="selected"  to="/home">
                         Home
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a className="nav-link" href="about.html">
-                        About
-                      </a>
+                      <NavLink  activeClassName="selected" to="/about">
+                        Nosotros
+                      </NavLink>
                     </li>
                     <li>
-                      <a className="nav-link" href="#services">
-                        Services
-                      </a>
+                      <NavLink activeClassName="selected"  to="/services">
+                        Servicios
+                      </NavLink>
                     </li>
                     <li>
-                      <a className="nav-link" href="#testimonial">
-                        Testimonials
-                      </a>
+                      <NavLink activeClassName="selected" to="/clientes">
+                        Clientes
+                      </NavLink>
                     </li>
                     <li>
-                      <a className="nav-link" href="blog.html">
-                        Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a className="nav-link" href="#contact">
-                        Contact
-                      </a>
+                      <NavLink activeClassName="selected" to="/contact">
+                        Contactenos
+                      </NavLink>
                     </li>
                   </ul>
                 </div>

@@ -1,7 +1,8 @@
 import React from "react";
 import bcsbk from "../assets/image/bcs-media/contact-bk.svg";
 import emailjs from 'emailjs-com';
-
+import swal from 'sweetalert';
+import { Link } from "react-router-dom";
 
 export default function Contact() {
 
@@ -14,6 +15,14 @@ export default function Contact() {
       }, (error) => {
         console.log(error.text);
       });
+  }
+  const mostarAlert = () => {
+    swal({
+      title: "Gracias por realizar tu contancto",
+      text: "Pronto se estaran comunicando contigo, somos Bsc-Media",
+      icon: "success",
+      timer: 3000
+    });
   }
   return (
     <div className="section-padding client-logo-area">
@@ -76,13 +85,17 @@ export default function Contact() {
                       rows="10"
                       placeholder="Messages"
                     ></textarea>{" "}
-                    <button
-                      type="submit"
-                      id="submit"
-                      className="boxed-btn font-txt"
-                    >
-                      ENVIAR{" "}
-                    </button>
+                    <Link to="/home">
+                      <button
+                        type="submit"
+                        id="submit"
+                        className="boxed-btn font-txt"
+                        onClick={() => mostarAlert()}
+                        Link='/home'
+                      >
+                        ENVIAR{" "}
+                      </button>
+                    </Link>
                   </p>
                 </form>
               </div>

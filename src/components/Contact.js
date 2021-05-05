@@ -1,12 +1,23 @@
-import React, { Component } from "react";
+import React from "react";
 import bcsbk from "../assets/image/bcs-media/contact-bk.svg";
+import emailjs from 'emailjs-com';
 
-export class Contact extends Component {
-  render() {
-    return (
-      
-      <div className="section-padding client-logo-area">
-        <div className="contact-area  home-3-contact-area" id="contact-form">
+
+export default function Contact() {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_kzkku1q', 'template_t7bid0k', e.target, 'user_5bDIgYddipK9ipPSncbgw')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  }
+  return (
+    <div className="section-padding client-logo-area">
+      <div className="contact-area  home-3-contact-area" id="contact-form">
         <div className="container">
           <div className="row justify-content-center aic">
             <div
@@ -36,11 +47,12 @@ export class Contact extends Component {
                 <form
                   id="contactForm"
                   data-toggle="validator"
-                  className="shake"
+                  className="shake" onSubmit={sendEmail}
                 >
                   <p>
                     <label> Name * </label>
                     <input
+                      name="name"
                       type="text"
                       id="name"
                       placeholder="Nombre Completo*"
@@ -49,6 +61,7 @@ export class Contact extends Component {
                   <p>
                     <label> Email * </label>{" "}
                     <input
+                      name="email"
                       type="email"
                       id="email"
                       placeholder="contacto@dominio.com*"
@@ -57,7 +70,7 @@ export class Contact extends Component {
                   <p>
                     <label> Messages * </label>{" "}
                     <textarea
-                      name="name"
+                      name="message"
                       id="message"
                       cols="30"
                       rows="10"
@@ -76,10 +89,8 @@ export class Contact extends Component {
             </div>
           </div>
         </div>
-        </div>
-        </div>
-    );
-  }
+      </div>
+    </div>
+  );
 }
 
-export default Contact;

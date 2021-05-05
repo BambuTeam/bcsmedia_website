@@ -2,9 +2,20 @@ import React, { Component, Fragment } from "react";
 
 import logoBcsmedia from "../assets/image/bcs-media/logo_bcsmedia_white.png";
 import topfooter from "../assets/image/bcs-media/footer-top.svg";
+import emailjs from 'emailjs-com';
 
 export class Footer extends Component {
   render() {
+    function sendEmail(e) {
+      e.preventDefault();
+
+      emailjs.sendForm('service_kzkku1q', 'template_t7bid0k', e.target, 'user_5bDIgYddipK9ipPSncbgw')
+        .then((result) => {
+          console.log(result.text);
+        }, (error) => {
+          console.log(error.text);
+        });
+    }
     return (
       <Fragment>
         <div>
@@ -17,14 +28,14 @@ export class Footer extends Component {
               <div className="row justify-content-center">
                 <div className="col-lg-7 text-center">
                   <div className="section-title">
-                  <div className="home-3-hero-title footer-text">
-                    <h1
-                      className="wow fadeInUp"
-                      data-wow-delay="0.5s"
-                      data-wow-duration="1s"
-                    >
-                      ¿Tiene preguntas en mente? <strong>contáctanos</strong>
-                    </h1>
+                    <div className="home-3-hero-title footer-text">
+                      <h1
+                        className="wow fadeInUp"
+                        data-wow-delay="0.5s"
+                        data-wow-duration="1s"
+                      >
+                        ¿Tiene preguntas en mente? <strong>contáctanos</strong>
+                      </h1>
                     </div>
                     <div
                       className="subscribe-form footer-subscribe-form wow fadeInUp"
@@ -34,11 +45,11 @@ export class Footer extends Component {
                       <form id="mc-form-footer">
                         <input
                           className="mr-md-3"
-                          type="email"
+                          name="email"
                           placeholder="Correo Electronico"
-                          id="mc-email-footer"
+                          id="email"
                         />
-                        <button type="submit" className="btn-footer">ENVIAR</button>
+                        <button type="submit" onSubmit={sendEmail} className="btn-footer">ENVIAR</button>
                       </form>
                     </div>
                   </div>
@@ -61,10 +72,10 @@ export class Footer extends Component {
                   <div className="footer-mainmenu">
                     <ul>
                       <li>
-                        <a href="about.html">About</a>
+                        <a href="about">About</a>
                       </li>
                       <li>
-                        <a href="#">Services</a>
+                        <a href="services">Services</a>
                       </li>
                       <li>
                         <a href="#">Customers</a>
@@ -76,7 +87,7 @@ export class Footer extends Component {
                         <a href="#">Pricing</a>
                       </li>
                       <li>
-                        <a href="#">Contact</a>
+                        <a href="contact">Contact</a>
                       </li>
                     </ul>
                   </div>
@@ -89,7 +100,7 @@ export class Footer extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-lg-6">
-                  Copyright &copy; 2020 Bcs Media .
+                  Copyright &copy; 2021 Bcs Media .
                 </div>
                 <div className="col-lg-6">
                   <div className="social-link">

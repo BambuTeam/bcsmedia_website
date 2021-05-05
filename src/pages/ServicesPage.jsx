@@ -48,8 +48,8 @@ export default class ServicesPage extends Component {
                       Look at it, but if you have successfully reached your
                       target market, the payoffs will be worth it.
                     </p>
-                    <a href className="border-boxed-btn">
-                    Obtenga su presupuesto <i className="far fa-angle-right" />
+                    <a href="/contact" className="border-boxed-btn">
+                      Obtenga su presupuesto <i className="far fa-angle-right" />
                     </a>
                   </div>
                 </div>
@@ -102,8 +102,8 @@ export default class ServicesPage extends Component {
                       Pautas en pantallas digitales Diseño gráfico Animación 3D
                       Animación 2D
                     </p>
-                    <a href className="border-boxed-btn">
-                    Obtenga su presupuesto <i className="far fa-angle-right" />
+                    <a href="/contact" className="border-boxed-btn">
+                      Obtenga su presupuesto <i className="far fa-angle-right" />
                     </a>
                   </div>
                 </div>
@@ -129,8 +129,8 @@ export default class ServicesPage extends Component {
                       minutos. Máximo 15 clientes en cada pantalla.
                     </p>
 
-                    <a href className="border-boxed-btn">
-                    Obtenga su presupuesto <i className="far fa-angle-right" />
+                    <a href="/contact" className="border-boxed-btn">
+                      Obtenga su presupuesto <i className="far fa-angle-right" />
                     </a>
                   </div>
                 </div>

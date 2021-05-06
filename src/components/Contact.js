@@ -24,7 +24,7 @@ export default function Contact() {
       title: "Gracias por realizar tu contancto",
       text: "Pronto se estaran comunicando contigo, somos Bsc-Media",
       icon: "success",
-      timer: 3000
+      timer: 4000
     });
 
   }

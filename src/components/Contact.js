@@ -6,23 +6,27 @@ import { Link } from "react-router-dom";
 
 export default function Contact() {
 
+
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_kzkku1q', 'template_t7bid0k', e.target, 'user_5bDIgYddipK9ipPSncbgw')
+    emailjs.sendForm('service_9w8b5b8', 'template_sxqpx16', e.target, 'user_5bDIgYddipK9ipPSncbgw')
       .then((result) => {
         console.log(result.text);
       }, (error) => {
         console.log(error.text);
       });
+    e.target.reset();
   }
   const mostarAlert = () => {
+
     swal({
       title: "Gracias por realizar tu contancto",
       text: "Pronto se estaran comunicando contigo, somos Bsc-Media",
       icon: "success",
       timer: 3000
     });
+
   }
   return (
     <div className="section-padding client-logo-area">
@@ -57,6 +61,7 @@ export default function Contact() {
                   id="contactForm"
                   data-toggle="validator"
                   className="shake" onSubmit={sendEmail}
+
                 >
                   <p>
                     <label> Name * </label>
@@ -85,17 +90,16 @@ export default function Contact() {
                       rows="10"
                       placeholder="Messages"
                     ></textarea>{" "}
-                    <Link to="/home">
-                      <button
-                        type="submit"
-                        id="submit"
-                        className="boxed-btn font-txt"
-                        onClick={() => mostarAlert()}
-                        Link='/home'
-                      >
-                        ENVIAR{" "}
-                      </button>
-                    </Link>
+
+                    <button
+                      type="submit"
+                      id="submit"
+                      className="boxed-btn font-txt"
+                      onClick={() => mostarAlert()}
+                      Link='/home'
+                    >
+                      ENVIAR{" "}
+                    </button>
                   </p>
                 </form>
               </div>

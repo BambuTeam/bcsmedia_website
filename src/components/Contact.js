@@ -18,7 +18,7 @@ export default function Contact() {
       });
     e.target.reset();
   }
-  const mostarAlert = () => {
+  const mostrarAlert = () => {
 
     swal({
       title: "Gracias por realizar tu contancto",
@@ -95,7 +95,7 @@ export default function Contact() {
                       type="submit"
                       id="submit"
                       className="boxed-btn font-txt"
-                      onClick={() => mostarAlert()}
+                      onClick={() => mostrarAlert()}
                       Link='/home'
                     >
                       ENVIAR{" "}

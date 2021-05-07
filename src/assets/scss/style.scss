@@ -2155,13 +2155,13 @@ a.border-boxed-btn.m-35 {
 /*==========
 Home 3 CSS
 ==========*/ /* 
- NAVBAR FONT COLOR */
+ NAVBAR FONT COLOR  HOVER MENUUUUUUUUUUUUU*/
 .home-3-header-area .mainmenu li:hover > a,
 .home-3-header-area .mainmenu li > a.active {
-  color: #ce0e2d !important;
-
-  border-radius: 20px;
-  font-family: bcs-primary-bold;
+  background-color: red;
+  color: #fefefe !important;
+  border-top-left-radius: 20px ;
+  border-top-right-radius: 20px ;
 
 }
 
@@ -4667,32 +4667,41 @@ a.boxed-btn,
 }
 a + .selected{
   color: #fff !important;
+  font-family: "bcs-primary-bold";
+
 }
 .selected{
   margin-bottom: 40px;
- 
-  font-family: "bcs-primary-bold";
+  font-family: "bcs-primary-bold" !important;
   background-color: #212121;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   &:hover {
     color:#fff !important;  
     background-color: #212121;
+  font-family: "bcs-primary-bold";
+
   }
 }
 
 a .selected{
   color: #fff !important;
+  font-family: "bcs-primary-bold";
+
 }
 
 .footer-text h1{
   color: #fff !important;
+  font-family: "bcs-primary-bold";
+
 }
 
 .txt-title{
   
   color: #ce0e2d;
   font-size: 23px !important;
+  font-family: "bcs-primary-bold";
+
 }
 
 .shapeimg img{

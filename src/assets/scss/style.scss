@@ -160,10 +160,6 @@ a.boxed-btn,
 
 /*=== Section padding CSS ===*/
 
-.section-padding {
-  /* padding: 80px 0; */
-}
-
 .pt-80 {
   padding-top: 80px;
 }
@@ -175,7 +171,7 @@ a.boxed-btn,
 /*=== Header area CSS ===*/
 
 .header-area {
-  padding: 15px 0;
+  padding: 0px 0;
 }
 
 .logo img {
@@ -235,7 +231,7 @@ button#menu-button {
   
 }
 .mainmenu ul li a.selected {
-  color:#fff !important;  
+  color: red !important;  
 }
 
 .mainmenu ul li a.selected {
@@ -372,7 +368,7 @@ button#menu-button {
   font-size: 15px;
   padding: 13px 40px;
   font-weight: bold;
-  border: #CE0E2D solid 1px;
+  border: #CE0E2D solid 10px;
 }
 
 a.border-boxed-btn {
@@ -2155,27 +2151,32 @@ a.border-boxed-btn.m-35 {
 /*==========
 Home 3 CSS
 ==========*/ /* 
- NAVBAR FONT COLOR */
+ NAVBAR FONT COLOR  HOVER MENUUUUUUUUUUUUU*/
 .home-3-header-area .mainmenu li:hover > a,
 .home-3-header-area .mainmenu li > a.active {
-  color: #000 !important;
+  background-color: red;
+  color: #fefefe !important;
+  border-top-left-radius: 20px ;
+  border-top-right-radius: 20px ;
+
 }
 
 .header-area-1.home-3-header-area .mainmenu li ul li:hover > a {
-  background: #ce0e2d;
+  color: #ce0e2d;
+  
 }
 
 .is-sticky .home-3-header-area .border-boxed-btn {
   font-family: bcs-primary-bold;
   font-size: 17px;
-  background: #ce0e2d;
-  border: 1px solid #ce0e2d;
+  background: #ce0e2d !important;
+  border: 5px solid #ce0e2d;
   color: #ffffff;
 }
 
 .home-3-header-area .border-boxed-btn {
   border: 1px solid #ffffff;
-  color: #ce0e2d;
+  color: gray;
 }
 
 .is-sticky .home-3-header-area .border-boxed-btn:hover,
@@ -2227,9 +2228,6 @@ Home 3 CSS
   width: 50%;
 }
 
-.home-3-contact-area-img {
- /*  margin-left: calc((-70vw + 100%) / 2); */
-}
 
 .home-3-section-title h2 {
   font-size: 50px;
@@ -4662,31 +4660,45 @@ a.boxed-btn,
 }
 a + .selected{
   color: #fff !important;
+  font-family: "bcs-primary-bold";
+
 }
 .selected{
-  background-color: #ce0e2d;
-  border-radius: 10px 10px 10px 10px;
+  margin-bottom: 40px;
+  font-family: "bcs-primary-bold" !important;
+  background-color: #212121;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   &:hover {
     color:#fff !important;  
+    background-color: #212121;
+  font-family: "bcs-primary-bold";
+
   }
 }
 
 a .selected{
   color: #fff !important;
+  font-family: "bcs-primary-bold";
+
 }
 
 .footer-text h1{
   color: #fff !important;
+  font-family: "bcs-primary-bold";
+
 }
 
 .txt-title{
   
   color: #ce0e2d;
   font-size: 23px !important;
+  font-family: "bcs-primary-bold";
+
 }
 
 .shapeimg img{
-  width: 3500px;
+  width: 3800px;
   height: 1250px;
   margin-top: -650px;
   position: absolute;

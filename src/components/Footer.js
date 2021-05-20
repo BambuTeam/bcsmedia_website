@@ -25,12 +25,12 @@ export class Footer extends Component {
         <div className="footer-area white home-3-footer-area">
           <div className="pd-sm section-padding">
             <div className="container">
-              <div className="row">
-                <div className="footer-logo">
+              <div className="row justify-content-center">
+                {/* <div className="footer-logo">
                   <a href="index.html">
                     <img src={logoBcsmedia} alt="" width="120" />
                   </a>
-                </div>
+                </div> */}
                 <div className="col-lg-7 text-center">
                   <div className="section-title">
                     <div className="home-3-hero-title footer-text">
@@ -68,13 +68,11 @@ export class Footer extends Component {
 
           <div className="footer-menu">
             <div className="container">
-              <div className="row">
-                <div className="col-lg-3">
-                  
-                </div>
-                <div className="col-lg-9">
+              <div className="row justify-content-center">
+                {/* <div className="col-lg-9">
                   <div className="footer-mainmenu">
                     <ul>
+
                       <li>
                         <a href="home">Home</a>
                       </li>
@@ -86,7 +84,7 @@ export class Footer extends Component {
                       </li>
                       {/* <li>
                         <a href="#">Customers</a>
-                      </li> */}
+                      </li>
 
                       <li>
                         <a href="clientes">Clients</a>
@@ -98,12 +96,13 @@ export class Footer extends Component {
                   </div>
                   <br />
                   <br />
-                  <div>
-                    <p>
-                      Copyright 2021 <a
-                      >Bcs-Media</a>. All
+                  
+                </div> */}
+                <div>
+                  <p>
+                    Copyright 2021 <a
+                    >Bcs-Media</a>. All
 										Rights Reserved.</p>
-                  </div>
                 </div>
               </div>
             </div>

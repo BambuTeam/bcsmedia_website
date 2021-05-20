@@ -25,17 +25,22 @@ export class Footer extends Component {
         <div className="footer-area white home-3-footer-area">
           <div className="pd-sm section-padding">
             <div className="container">
-              <div className="row justify-content-center">
+              <div className="row">
+                <div className="footer-logo">
+                  <a href="index.html">
+                    <img src={logoBcsmedia} alt="" width="120" />
+                  </a>
+                </div>
                 <div className="col-lg-7 text-center">
                   <div className="section-title">
                     <div className="home-3-hero-title footer-text">
-                      <h1
+                      <h2
                         className="wow fadeInUp"
                         data-wow-delay="0.5s"
                         data-wow-duration="1s"
                       >
                         ¿Tiene preguntas en mente? <strong>contáctanos</strong>
-                      </h1>
+                      </h2>
                     </div>
                     <div
                       className="subscribe-form footer-subscribe-form wow fadeInUp"
@@ -65,16 +70,11 @@ export class Footer extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-lg-3">
-                  <div className="footer-logo">
-                    <a href="index.html">
-                      <img src={logoBcsmedia} alt="" width="120" />
-                    </a>
-                  </div>
+                  
                 </div>
                 <div className="col-lg-9">
                   <div className="footer-mainmenu">
                     <ul>
-
                       <li>
                         <a href="home">Home</a>
                       </li>
@@ -96,12 +96,20 @@ export class Footer extends Component {
                       </li>
                     </ul>
                   </div>
+                  <br />
+                  <br />
+                  <div>
+                    <p>
+                      Copyright 2021 <a
+                      >Bcs-Media</a>. All
+										Rights Reserved.</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="copyright-area">
+          {/*  <div className="copyright-area">
             <div className="container">
               <div className="row">
                 <div className="col-lg-6">
@@ -125,7 +133,7 @@ export class Footer extends Component {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </Fragment>
     );
